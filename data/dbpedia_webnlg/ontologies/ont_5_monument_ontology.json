@@ -1,0 +1,272 @@
+{
+  "title": "Monument Ontology",
+  "id": "ont_5_monument",
+  "concepts": [
+    {
+      "qid": "Monument",
+      "label": "Monument"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "category",
+      "label": "category",
+      "domain": "Monument",
+      "range": "category"
+    },
+    {
+      "pid": "religion",
+      "label": "religion",
+      "domain": "Monument",
+      "range": "religion"
+    },
+    {
+      "pid": "established",
+      "label": "established",
+      "domain": "Monument",
+      "range": "established"
+    },
+    {
+      "pid": "owningOrganisation",
+      "label": "owningOrganisation",
+      "domain": "Monument",
+      "range": "owningOrganisation"
+    },
+    {
+      "pid": "inaugurationDate",
+      "label": "inaugurationDate",
+      "domain": "Monument",
+      "range": "inaugurationDate"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Monument",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "municipality",
+      "label": "municipality",
+      "domain": "Monument",
+      "range": "municipality"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Monument",
+      "range": "leader"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Monument",
+      "range": "language"
+    },
+    {
+      "pid": "hasToItsNorth",
+      "label": "hasToItsNorth",
+      "domain": "Monument",
+      "range": "hasToItsNorth"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Monument",
+      "range": "capital"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "Monument",
+      "range": "state"
+    },
+    {
+      "pid": "designer",
+      "label": "designer",
+      "domain": "Monument",
+      "range": "designer"
+    },
+    {
+      "pid": "nearestCity",
+      "label": "nearestCity",
+      "domain": "Monument",
+      "range": "nearestCity"
+    },
+    {
+      "pid": "hasToItsSouthwest",
+      "label": "hasToItsSouthwest",
+      "domain": "Monument",
+      "range": "hasToItsSouthwest"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Monument",
+      "range": "country"
+    },
+    {
+      "pid": "district",
+      "label": "district",
+      "domain": "Monument",
+      "range": "district"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Monument",
+      "range": "largestCity"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Monument",
+      "range": "location"
+    },
+    {
+      "pid": "nativeName",
+      "label": "nativeName",
+      "domain": "Monument",
+      "range": "nativeName"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Monument",
+      "range": "currency"
+    },
+    {
+      "pid": "material",
+      "label": "material",
+      "domain": "Monument",
+      "range": "material"
+    },
+    {
+      "pid": "dedicatedTo",
+      "label": "dedicatedTo",
+      "domain": "Monument",
+      "range": "dedicatedTo"
+    },
+    {
+      "pid": "hasToItsSoutheast",
+      "label": "hasToItsSoutheast",
+      "domain": "Monument",
+      "range": "hasToItsSoutheast"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Monument",
+      "range": "ethnicGroup"
+    },
+    {
+      "pid": "hasToItsWest",
+      "label": "hasToItsWest",
+      "domain": "Monument",
+      "range": "hasToItsWest"
+    }
+  ]
+}

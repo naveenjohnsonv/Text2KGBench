@@ -1,0 +1,282 @@
+{
+  "title": "CelestialBody Ontology",
+  "id": "ont_13_celestialbody",
+  "concepts": [
+    {
+      "qid": "CelestialBody",
+      "label": "CelestialBody"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "temperature",
+      "label": "temperature",
+      "domain": "CelestialBody",
+      "range": "temperature"
+    },
+    {
+      "pid": "apoapsis",
+      "label": "apoapsis",
+      "domain": "CelestialBody",
+      "range": "apoapsis"
+    },
+    {
+      "pid": "maximumTemperature",
+      "label": "maximumTemperature",
+      "domain": "CelestialBody",
+      "range": "maximumTemperature"
+    },
+    {
+      "pid": "orbitalPeriod",
+      "label": "orbitalPeriod",
+      "domain": "CelestialBody",
+      "range": "orbitalPeriod"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "CelestialBody",
+      "range": "birthPlace"
+    },
+    {
+      "pid": "absoluteMagnitude",
+      "label": "absoluteMagnitude",
+      "domain": "CelestialBody",
+      "range": "absoluteMagnitude"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "CelestialBody",
+      "range": "almaMater"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "CelestialBody",
+      "range": "nationality"
+    },
+    {
+      "pid": "discoverer",
+      "label": "discoverer",
+      "domain": "CelestialBody",
+      "range": "discoverer"
+    },
+    {
+      "pid": "minimumTemperature",
+      "label": "minimumTemperature",
+      "domain": "CelestialBody",
+      "range": "minimumTemperature"
+    },
+    {
+      "pid": "averageSpeed",
+      "label": "averageSpeed",
+      "domain": "CelestialBody",
+      "range": "averageSpeed"
+    },
+    {
+      "pid": "rotationPeriod",
+      "label": "rotationPeriod",
+      "domain": "CelestialBody",
+      "range": "rotationPeriod"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "CelestialBody",
+      "range": "deathDate"
+    },
+    {
+      "pid": "meanTemperature",
+      "label": "meanTemperature",
+      "domain": "CelestialBody",
+      "range": "meanTemperature"
+    },
+    {
+      "pid": "periapsis",
+      "label": "periapsis",
+      "domain": "CelestialBody",
+      "range": "periapsis"
+    },
+    {
+      "pid": "surfaceArea",
+      "label": "surfaceArea",
+      "domain": "CelestialBody",
+      "range": "surfaceArea"
+    },
+    {
+      "pid": "discovered",
+      "label": "discovered",
+      "domain": "CelestialBody",
+      "range": "discovered"
+    },
+    {
+      "pid": "epoch",
+      "label": "epoch",
+      "domain": "CelestialBody",
+      "range": "epoch"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "CelestialBody",
+      "range": "deathPlace"
+    },
+    {
+      "pid": "mass",
+      "label": "mass",
+      "domain": "CelestialBody",
+      "range": "mass"
+    },
+    {
+      "pid": "density",
+      "label": "density",
+      "domain": "CelestialBody",
+      "range": "density"
+    },
+    {
+      "pid": "escapeVelocity",
+      "label": "escapeVelocity",
+      "domain": "CelestialBody",
+      "range": "escapeVelocity"
+    },
+    {
+      "pid": "formerName",
+      "label": "formerName",
+      "domain": "CelestialBody",
+      "range": "formerName"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "CelestialBody",
+      "range": "birthDate"
+    },
+    {
+      "pid": "doctoralStudent",
+      "label": "doctoralStudent",
+      "domain": "CelestialBody",
+      "range": "doctoralStudent"
+    },
+    {
+      "pid": "deathCause",
+      "label": "deathCause",
+      "domain": "CelestialBody",
+      "range": "deathCause"
+    },
+    {
+      "pid": "stateOfOrigin",
+      "label": "stateOfOrigin",
+      "domain": "CelestialBody",
+      "range": "stateOfOrigin"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "title": "Artist Ontology",
+  "id": "ont_3_artist",
+  "concepts": [
+    {
+      "qid": "Artist",
+      "label": "Artist"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "background",
+      "label": "background",
+      "domain": "Artist",
+      "range": "background"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Artist",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Artist",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "activeYearsStartYear",
+      "label": "activeYearsStartYear",
+      "domain": "Artist",
+      "range": "activeYearsStartYear"
+    },
+    {
+      "pid": "foundingDate",
+      "label": "foundingDate",
+      "domain": "Artist",
+      "range": "foundingDate"
+    },
+    {
+      "pid": "occupation",
+      "label": "occupation",
+      "domain": "Artist",
+      "range": "occupation"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Artist",
+      "range": "leader"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Artist",
+      "range": "birthPlace"
+    },
+    {
+      "pid": "longName",
+      "label": "longName",
+      "domain": "Artist",
+      "range": "longName"
+    },
+    {
+      "pid": "associatedBand/associatedMusicalArtist",
+      "label": "associatedBand/associatedMusicalArtist",
+      "domain": "Artist",
+      "range": "associatedBand/associatedMusicalArtist"
+    },
+    {
+      "pid": "musicSubgenre",
+      "label": "musicSubgenre",
+      "domain": "Artist",
+      "range": "musicSubgenre"
+    },
+    {
+      "pid": "birthYear",
+      "label": "birthYear",
+      "domain": "Artist",
+      "range": "birthYear"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Artist",
+      "range": "nationality"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "Artist",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Artist",
+      "range": "language"
+    },
+    {
+      "pid": "anthem",
+      "label": "anthem",
+      "domain": "Artist",
+      "range": "anthem"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Artist",
+      "range": "deathDate"
+    },
+    {
+      "pid": "populationDensity",
+      "label": "populationDensity",
+      "domain": "Artist",
+      "range": "populationDensity"
+    },
+    {
+      "pid": "alternativeName",
+      "label": "alternativeName",
+      "domain": "Artist",
+      "range": "alternativeName"
+    },
+    {
+      "pid": "training",
+      "label": "training",
+      "domain": "Artist",
+      "range": "training"
+    },
+    {
+      "pid": "professionalField",
+      "label": "professionalField",
+      "domain": "Artist",
+      "range": "professionalField"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Artist",
+      "range": "demonym"
+    },
+    {
+      "pid": "stylisticOrigin",
+      "label": "stylisticOrigin",
+      "domain": "Artist",
+      "range": "stylisticOrigin"
+    },
+    {
+      "pid": "genre",
+      "label": "genre",
+      "domain": "Artist",
+      "range": "genre"
+    },
+    {
+      "pid": "origin",
+      "label": "origin",
+      "domain": "Artist",
+      "range": "origin"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Artist",
+      "range": "country"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Artist",
+      "range": "deathPlace"
+    },
+    {
+      "pid": "instrument",
+      "label": "instrument",
+      "domain": "Artist",
+      "range": "instrument"
+    },
+    {
+      "pid": "officialLanguage",
+      "label": "officialLanguage",
+      "domain": "Artist",
+      "range": "officialLanguage"
+    },
+    {
+      "pid": "derivative",
+      "label": "derivative",
+      "domain": "Artist",
+      "range": "derivative"
+    },
+    {
+      "pid": "musicFusionGenre",
+      "label": "musicFusionGenre",
+      "domain": "Artist",
+      "range": "musicFusionGenre"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Artist",
+      "range": "location"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Artist",
+      "range": "currency"
+    },
+    {
+      "pid": "meaning",
+      "label": "meaning",
+      "domain": "Artist",
+      "range": "meaning"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Artist",
+      "range": "birthDate"
+    },
+    {
+      "pid": "recordLabel",
+      "label": "recordLabel",
+      "domain": "Artist",
+      "range": "recordLabel"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "Artist",
+      "range": "postalCode"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "Artist",
+      "range": "elevationAboveTheSeaLevel"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Artist",
+      "range": "ethnicGroup"
+    }
+  ]
+}

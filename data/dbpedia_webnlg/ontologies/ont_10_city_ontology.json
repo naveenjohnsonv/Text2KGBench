@@ -1,0 +1,242 @@
+{
+  "title": "City Ontology",
+  "id": "ont_10_city",
+  "concepts": [
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "City",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "City",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "governmentType",
+      "label": "governmentType",
+      "domain": "City",
+      "range": "governmentType"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "City",
+      "range": "leader"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "City",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "City",
+      "range": "language"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "City",
+      "range": "capital"
+    },
+    {
+      "pid": "populationDensity",
+      "label": "populationDensity",
+      "domain": "City",
+      "range": "populationDensity"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "City",
+      "range": "utcOffset"
+    },
+    {
+      "pid": "areaCode",
+      "label": "areaCode",
+      "domain": "City",
+      "range": "areaCode"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "City",
+      "range": "state"
+    },
+    {
+      "pid": "areaOfLand",
+      "label": "areaOfLand",
+      "domain": "City",
+      "range": "areaOfLand"
+    },
+    {
+      "pid": "populationMetro",
+      "label": "populationMetro",
+      "domain": "City",
+      "range": "populationMetro"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "City",
+      "range": "demonym"
+    },
+    {
+      "pid": "timeZone",
+      "label": "timeZone",
+      "domain": "City",
+      "range": "timeZone"
+    },
+    {
+      "pid": "countySeat",
+      "label": "countySeat",
+      "domain": "City",
+      "range": "countySeat"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "City",
+      "range": "country"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "City",
+      "range": "largestCity"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "City",
+      "range": "location"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "City",
+      "range": "type"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "City",
+      "range": "postalCode"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "City",
+      "range": "elevationAboveTheSeaLevel"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "City",
+      "range": "ethnicGroup"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "title": "Company Ontology",
+  "id": "ont_12_company",
+  "concepts": [
+    {
+      "qid": "Company",
+      "label": "Company"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Company",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Company",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "foundingDate",
+      "label": "foundingDate",
+      "domain": "Company",
+      "range": "foundingDate"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Company",
+      "range": "leader"
+    },
+    {
+      "pid": "netIncome",
+      "label": "netIncome",
+      "domain": "Company",
+      "range": "netIncome"
+    },
+    {
+      "pid": "revenue",
+      "label": "revenue",
+      "domain": "Company",
+      "range": "revenue"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Company",
+      "range": "keyPerson"
+    },
+    {
+      "pid": "longName",
+      "label": "longName",
+      "domain": "Company",
+      "range": "longName"
+    },
+    {
+      "pid": "service",
+      "label": "service",
+      "domain": "Company",
+      "range": "service"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "Company",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "foundationPlace",
+      "label": "foundationPlace",
+      "domain": "Company",
+      "range": "foundationPlace"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Company",
+      "range": "city"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Company",
+      "range": "capital"
+    },
+    {
+      "pid": "product",
+      "label": "product",
+      "domain": "Company",
+      "range": "product"
+    },
+    {
+      "pid": "industry",
+      "label": "industry",
+      "domain": "Company",
+      "range": "industry"
+    },
+    {
+      "pid": "numberOfEmployees",
+      "label": "numberOfEmployees",
+      "domain": "Company",
+      "range": "numberOfEmployees"
+    },
+    {
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "Company",
+      "range": "parentCompany"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Company",
+      "range": "country"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Company",
+      "range": "location"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "Company",
+      "range": "type"
+    },
+    {
+      "pid": "subsidiary",
+      "label": "subsidiary",
+      "domain": "Company",
+      "range": "subsidiary"
+    },
+    {
+      "pid": "operatingIncome",
+      "label": "operatingIncome",
+      "domain": "Company",
+      "range": "operatingIncome"
+    },
+    {
+      "pid": "leaderParty",
+      "label": "leaderParty",
+      "domain": "Company",
+      "range": "leaderParty"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "Company",
+      "range": "elevationAboveTheSeaLevel"
+    },
+    {
+      "pid": "populationTotal",
+      "label": "populationTotal",
+      "domain": "Company",
+      "range": "populationTotal"
+    },
+    {
+      "pid": "numberOfLocations",
+      "label": "numberOfLocations",
+      "domain": "Company",
+      "range": "numberOfLocations"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Company",
+      "range": "ethnicGroup"
+    },
+    {
+      "pid": "regionServed",
+      "label": "regionServed",
+      "domain": "Company",
+      "range": "regionServed"
+    }
+  ]
+}

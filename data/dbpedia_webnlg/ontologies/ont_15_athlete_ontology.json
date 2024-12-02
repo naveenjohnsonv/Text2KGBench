@@ -1,0 +1,382 @@
+{
+  "title": "Athlete Ontology",
+  "id": "ont_15_athlete",
+  "concepts": [
+    {
+      "qid": "Athlete",
+      "label": "Athlete"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "currentteam",
+      "label": "currentteam",
+      "domain": "Athlete",
+      "range": "currentteam"
+    },
+    {
+      "pid": "coach",
+      "label": "coach",
+      "domain": "Athlete",
+      "range": "coach"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Athlete",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Athlete",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "activeYearsStartYear",
+      "label": "activeYearsStartYear",
+      "domain": "Athlete",
+      "range": "activeYearsStartYear"
+    },
+    {
+      "pid": "foundingDate",
+      "label": "foundingDate",
+      "domain": "Athlete",
+      "range": "foundingDate"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Athlete",
+      "range": "leader"
+    },
+    {
+      "pid": "weight",
+      "label": "weight",
+      "domain": "Athlete",
+      "range": "weight"
+    },
+    {
+      "pid": "chairman",
+      "label": "chairman",
+      "domain": "Athlete",
+      "range": "chairman"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Athlete",
+      "range": "birthPlace"
+    },
+    {
+      "pid": "season",
+      "label": "season",
+      "domain": "Athlete",
+      "range": "season"
+    },
+    {
+      "pid": "debutTeam",
+      "label": "debutTeam",
+      "domain": "Athlete",
+      "range": "debutTeam"
+    },
+    {
+      "pid": "draftTeam",
+      "label": "draftTeam",
+      "domain": "Athlete",
+      "range": "draftTeam"
+    },
+    {
+      "pid": "birthYear",
+      "label": "birthYear",
+      "domain": "Athlete",
+      "range": "birthYear"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "Athlete",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "generalManager",
+      "label": "generalManager",
+      "domain": "Athlete",
+      "range": "generalManager"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Athlete",
+      "range": "language"
+    },
+    {
+      "pid": "anthem",
+      "label": "anthem",
+      "domain": "Athlete",
+      "range": "anthem"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Athlete",
+      "range": "city"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Athlete",
+      "range": "owner"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "Athlete",
+      "range": "utcOffset"
+    },
+    {
+      "pid": "draftRound",
+      "label": "draftRound",
+      "domain": "Athlete",
+      "range": "draftRound"
+    },
+    {
+      "pid": "currentclub",
+      "label": "currentclub",
+      "domain": "Athlete",
+      "range": "currentclub"
+    },
+    {
+      "pid": "ground",
+      "label": "ground",
+      "domain": "Athlete",
+      "range": "ground"
+    },
+    {
+      "pid": "height",
+      "label": "height",
+      "domain": "Athlete",
+      "range": "height"
+    },
+    {
+      "pid": "timeZone",
+      "label": "timeZone",
+      "domain": "Athlete",
+      "range": "timeZone"
+    },
+    {
+      "pid": "manager",
+      "label": "manager",
+      "domain": "Athlete",
+      "range": "manager"
+    },
+    {
+      "pid": "club",
+      "label": "club",
+      "domain": "Athlete",
+      "range": "club"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Athlete",
+      "range": "deathPlace"
+    },
+    {
+      "pid": "draftPick",
+      "label": "draftPick",
+      "domain": "Athlete",
+      "range": "draftPick"
+    },
+    {
+      "pid": "youthclub",
+      "label": "youthclub",
+      "domain": "Athlete",
+      "range": "youthclub"
+    },
+    {
+      "pid": "draftYear",
+      "label": "draftYear",
+      "domain": "Athlete",
+      "range": "draftYear"
+    },
+    {
+      "pid": "league",
+      "label": "league",
+      "domain": "Athlete",
+      "range": "league"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Athlete",
+      "range": "birthDate"
+    },
+    {
+      "pid": "college",
+      "label": "college",
+      "domain": "Athlete",
+      "range": "college"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Athlete",
+      "range": "ethnicGroup"
+    },
+    {
+      "pid": "formerTeam",
+      "label": "formerTeam",
+      "domain": "Athlete",
+      "range": "formerTeam"
+    }
+  ]
+}

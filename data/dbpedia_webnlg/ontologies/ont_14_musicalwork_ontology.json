@@ -1,0 +1,362 @@
+{
+  "title": "MusicalWork Ontology",
+  "id": "ont_14_musicalwork",
+  "concepts": [
+    {
+      "qid": "MusicalWork",
+      "label": "MusicalWork"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "precededBy",
+      "label": "precededBy",
+      "domain": "MusicalWork",
+      "range": "precededBy"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "MusicalWork",
+      "range": "leader"
+    },
+    {
+      "pid": "formerBandMember",
+      "label": "formerBandMember",
+      "domain": "MusicalWork",
+      "range": "formerBandMember"
+    },
+    {
+      "pid": "musicalBand",
+      "label": "musicalBand",
+      "domain": "MusicalWork",
+      "range": "musicalBand"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "MusicalWork",
+      "range": "keyPerson"
+    },
+    {
+      "pid": "associatedBand/associatedMusicalArtist",
+      "label": "associatedBand/associatedMusicalArtist",
+      "domain": "MusicalWork",
+      "range": "associatedBand/associatedMusicalArtist"
+    },
+    {
+      "pid": "musicSubgenre",
+      "label": "musicSubgenre",
+      "domain": "MusicalWork",
+      "range": "musicSubgenre"
+    },
+    {
+      "pid": "album",
+      "label": "album",
+      "domain": "MusicalWork",
+      "range": "album"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "MusicalWork",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "format",
+      "label": "format",
+      "domain": "MusicalWork",
+      "range": "format"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "MusicalWork",
+      "range": "language"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "MusicalWork",
+      "range": "owner"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "MusicalWork",
+      "range": "utcOffset"
+    },
+    {
+      "pid": "releaseDate",
+      "label": "releaseDate",
+      "domain": "MusicalWork",
+      "range": "releaseDate"
+    },
+    {
+      "pid": "areaCode",
+      "label": "areaCode",
+      "domain": "MusicalWork",
+      "range": "areaCode"
+    },
+    {
+      "pid": "writer",
+      "label": "writer",
+      "domain": "MusicalWork",
+      "range": "writer"
+    },
+    {
+      "pid": "genre",
+      "label": "genre",
+      "domain": "MusicalWork",
+      "range": "genre"
+    },
+    {
+      "pid": "stylisticOrigin",
+      "label": "stylisticOrigin",
+      "domain": "MusicalWork",
+      "range": "stylisticOrigin"
+    },
+    {
+      "pid": "timeZone",
+      "label": "timeZone",
+      "domain": "MusicalWork",
+      "range": "timeZone"
+    },
+    {
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "MusicalWork",
+      "range": "parentCompany"
+    },
+    {
+      "pid": "producer",
+      "label": "producer",
+      "domain": "MusicalWork",
+      "range": "producer"
+    },
+    {
+      "pid": "artist",
+      "label": "artist",
+      "domain": "MusicalWork",
+      "range": "artist"
+    },
+    {
+      "pid": "instrument",
+      "label": "instrument",
+      "domain": "MusicalWork",
+      "range": "instrument"
+    },
+    {
+      "pid": "musicFusionGenre",
+      "label": "musicFusionGenre",
+      "domain": "MusicalWork",
+      "range": "musicFusionGenre"
+    },
+    {
+      "pid": "derivative",
+      "label": "derivative",
+      "domain": "MusicalWork",
+      "range": "derivative"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "MusicalWork",
+      "range": "location"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "MusicalWork",
+      "range": "type"
+    },
+    {
+      "pid": "recordedIn",
+      "label": "recordedIn",
+      "domain": "MusicalWork",
+      "range": "recordedIn"
+    },
+    {
+      "pid": "followedBy",
+      "label": "followedBy",
+      "domain": "MusicalWork",
+      "range": "followedBy"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "MusicalWork",
+      "range": "birthDate"
+    },
+    {
+      "pid": "certification",
+      "label": "certification",
+      "domain": "MusicalWork",
+      "range": "certification"
+    },
+    {
+      "pid": "recordLabel",
+      "label": "recordLabel",
+      "domain": "MusicalWork",
+      "range": "recordLabel"
+    },
+    {
+      "pid": "distributingLabel",
+      "label": "distributingLabel",
+      "domain": "MusicalWork",
+      "range": "distributingLabel"
+    },
+    {
+      "pid": "musicalArtist",
+      "label": "musicalArtist",
+      "domain": "MusicalWork",
+      "range": "musicalArtist"
+    },
+    {
+      "pid": "runtime",
+      "label": "runtime",
+      "domain": "MusicalWork",
+      "range": "runtime"
+    }
+  ]
+}

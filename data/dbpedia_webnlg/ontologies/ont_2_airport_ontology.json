@@ -1,0 +1,402 @@
+{
+  "title": "Airport Ontology",
+  "id": "ont_2_airport",
+  "concepts": [
+    {
+      "qid": "Airport",
+      "label": "Airport"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "icaoLocationIdentifier",
+      "label": "icaoLocationIdentifier",
+      "domain": "Airport",
+      "range": "icaoLocationIdentifier"
+    },
+    {
+      "pid": "3rdRunwaySurfaceType",
+      "label": "3rdRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "3rdRunwaySurfaceType"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Airport",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "cityServed",
+      "label": "cityServed",
+      "domain": "Airport",
+      "range": "cityServed"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Airport",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Airport",
+      "range": "leader"
+    },
+    {
+      "pid": "transportAircraft",
+      "label": "transportAircraft",
+      "domain": "Airport",
+      "range": "transportAircraft"
+    },
+    {
+      "pid": "runwayName",
+      "label": "runwayName",
+      "domain": "Airport",
+      "range": "runwayName"
+    },
+    {
+      "pid": "foundingYear",
+      "label": "foundingYear",
+      "domain": "Airport",
+      "range": "foundingYear"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Airport",
+      "range": "language"
+    },
+    {
+      "pid": "order",
+      "label": "order",
+      "domain": "Airport",
+      "range": "order"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevelInMetres",
+      "label": "elevationAboveTheSeaLevelInMetres",
+      "domain": "Airport",
+      "range": "elevationAboveTheSeaLevelInMetres"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Airport",
+      "range": "city"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Airport",
+      "range": "capital"
+    },
+    {
+      "pid": "runwaySurfaceType",
+      "label": "runwaySurfaceType",
+      "domain": "Airport",
+      "range": "runwaySurfaceType"
+    },
+    {
+      "pid": "runwayLength",
+      "label": "runwayLength",
+      "domain": "Airport",
+      "range": "runwayLength"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Airport",
+      "range": "owner"
+    },
+    {
+      "pid": "ceremonialCounty",
+      "label": "ceremonialCounty",
+      "domain": "Airport",
+      "range": "ceremonialCounty"
+    },
+    {
+      "pid": "areaCode",
+      "label": "areaCode",
+      "domain": "Airport",
+      "range": "areaCode"
+    },
+    {
+      "pid": "class",
+      "label": "class",
+      "domain": "Airport",
+      "range": "class"
+    },
+    {
+      "pid": "aircraftFighter",
+      "label": "aircraftFighter",
+      "domain": "Airport",
+      "range": "aircraftFighter"
+    },
+    {
+      "pid": "foundedBy",
+      "label": "foundedBy",
+      "domain": "Airport",
+      "range": "foundedBy"
+    },
+    {
+      "pid": "battle",
+      "label": "battle",
+      "domain": "Airport",
+      "range": "battle"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Airport",
+      "range": "demonym"
+    },
+    {
+      "pid": "hubAirport",
+      "label": "hubAirport",
+      "domain": "Airport",
+      "range": "hubAirport"
+    },
+    {
+      "pid": "aircraftHelicopter",
+      "label": "aircraftHelicopter",
+      "domain": "Airport",
+      "range": "aircraftHelicopter"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Airport",
+      "range": "country"
+    },
+    {
+      "pid": "1stRunwaySurfaceType",
+      "label": "1stRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "1stRunwaySurfaceType"
+    },
+    {
+      "pid": "2ndRunwaySurfaceType",
+      "label": "2ndRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "2ndRunwaySurfaceType"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Airport",
+      "range": "largestCity"
+    },
+    {
+      "pid": "officialLanguage",
+      "label": "officialLanguage",
+      "domain": "Airport",
+      "range": "officialLanguage"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Airport",
+      "range": "location"
+    },
+    {
+      "pid": "division",
+      "label": "division",
+      "domain": "Airport",
+      "range": "division"
+    },
+    {
+      "pid": "operatingOrganisation",
+      "label": "operatingOrganisation",
+      "domain": "Airport",
+      "range": "operatingOrganisation"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Airport",
+      "range": "headquarter"
+    },
+    {
+      "pid": "leaderParty",
+      "label": "leaderParty",
+      "domain": "Airport",
+      "range": "leaderParty"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "Airport",
+      "range": "postalCode"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "Airport",
+      "range": "elevationAboveTheSeaLevel"
+    },
+    {
+      "pid": "regionServed",
+      "label": "regionServed",
+      "domain": "Airport",
+      "range": "regionServed"
+    }
+  ]
+}

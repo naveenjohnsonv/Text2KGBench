@@ -1,0 +1,482 @@
+{
+  "title": "Scientist Ontology",
+  "id": "ont_7_scientist",
+  "concepts": [
+    {
+      "qid": "Scientist",
+      "label": "Scientist"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "religion",
+      "label": "religion",
+      "domain": "Scientist",
+      "range": "religion"
+    },
+    {
+      "pid": "doctoralAdvisor",
+      "label": "doctoralAdvisor",
+      "domain": "Scientist",
+      "range": "doctoralAdvisor"
+    },
+    {
+      "pid": "motto",
+      "label": "motto",
+      "domain": "Scientist",
+      "range": "motto"
+    },
+    {
+      "pid": "spouse",
+      "label": "spouse",
+      "domain": "Scientist",
+      "range": "spouse"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Scientist",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Scientist",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "award",
+      "label": "award",
+      "domain": "Scientist",
+      "range": "award"
+    },
+    {
+      "pid": "foundingDate",
+      "label": "foundingDate",
+      "domain": "Scientist",
+      "range": "foundingDate"
+    },
+    {
+      "pid": "governmentType",
+      "label": "governmentType",
+      "domain": "Scientist",
+      "range": "governmentType"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Scientist",
+      "range": "leader"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Scientist",
+      "range": "birthPlace"
+    },
+    {
+      "pid": "foundingYear",
+      "label": "foundingYear",
+      "domain": "Scientist",
+      "range": "foundingYear"
+    },
+    {
+      "pid": "longName",
+      "label": "longName",
+      "domain": "Scientist",
+      "range": "longName"
+    },
+    {
+      "pid": "knownFor",
+      "label": "knownFor",
+      "domain": "Scientist",
+      "range": "knownFor"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "Scientist",
+      "range": "areaTotal"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Scientist",
+      "range": "nationality"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Scientist",
+      "range": "almaMater"
+    },
+    {
+      "pid": "birthName",
+      "label": "birthName",
+      "domain": "Scientist",
+      "range": "birthName"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Scientist",
+      "range": "language"
+    },
+    {
+      "pid": "region",
+      "label": "region",
+      "domain": "Scientist",
+      "range": "region"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "Scientist",
+      "range": "affiliation"
+    },
+    {
+      "pid": "percentageOfAreaWater",
+      "label": "percentageOfAreaWater",
+      "domain": "Scientist",
+      "range": "percentageOfAreaWater"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Scientist",
+      "range": "capital"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Scientist",
+      "range": "deathDate"
+    },
+    {
+      "pid": "populationMetroDensity",
+      "label": "populationMetroDensity",
+      "domain": "Scientist",
+      "range": "populationMetroDensity"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "Scientist",
+      "range": "utcOffset"
+    },
+    {
+      "pid": "areaCode",
+      "label": "areaCode",
+      "domain": "Scientist",
+      "range": "areaCode"
+    },
+    {
+      "pid": "viceChancellor",
+      "label": "viceChancellor",
+      "domain": "Scientist",
+      "range": "viceChancellor"
+    },
+    {
+      "pid": "professionalField",
+      "label": "professionalField",
+      "domain": "Scientist",
+      "range": "professionalField"
+    },
+    {
+      "pid": "chancellor",
+      "label": "chancellor",
+      "domain": "Scientist",
+      "range": "chancellor"
+    },
+    {
+      "pid": "residence",
+      "label": "residence",
+      "domain": "Scientist",
+      "range": "residence"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Scientist",
+      "range": "demonym"
+    },
+    {
+      "pid": "areaMetro",
+      "label": "areaMetro",
+      "domain": "Scientist",
+      "range": "areaMetro"
+    },
+    {
+      "pid": "timeZone",
+      "label": "timeZone",
+      "domain": "Scientist",
+      "range": "timeZone"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Scientist",
+      "range": "country"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Scientist",
+      "range": "deathPlace"
+    },
+    {
+      "pid": "areaOfWater",
+      "label": "areaOfWater",
+      "domain": "Scientist",
+      "range": "areaOfWater"
+    },
+    {
+      "pid": "officialLanguage",
+      "label": "officialLanguage",
+      "domain": "Scientist",
+      "range": "officialLanguage"
+    },
+    {
+      "pid": "gridReference",
+      "label": "gridReference",
+      "domain": "Scientist",
+      "range": "gridReference"
+    },
+    {
+      "pid": "influencedBy",
+      "label": "influencedBy",
+      "domain": "Scientist",
+      "range": "influencedBy"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Scientist",
+      "range": "currency"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "Scientist",
+      "range": "type"
+    },
+    {
+      "pid": "dissolutionYear",
+      "label": "dissolutionYear",
+      "domain": "Scientist",
+      "range": "dissolutionYear"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Scientist",
+      "range": "birthDate"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "Scientist",
+      "range": "postalCode"
+    },
+    {
+      "pid": "citizenship",
+      "label": "citizenship",
+      "domain": "Scientist",
+      "range": "citizenship"
+    },
+    {
+      "pid": "populationTotal",
+      "label": "populationTotal",
+      "domain": "Scientist",
+      "range": "populationTotal"
+    }
+  ]
+}

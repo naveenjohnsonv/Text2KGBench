@@ -1,0 +1,252 @@
+{
+  "title": "Food Ontology",
+  "id": "ont_19_food",
+  "concepts": [
+    {
+      "qid": "Food",
+      "label": "Food"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Food",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Food",
+      "range": "leaderTitle"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Food",
+      "range": "leader"
+    },
+    {
+      "pid": "protein",
+      "label": "protein",
+      "domain": "Food",
+      "range": "protein"
+    },
+    {
+      "pid": "region",
+      "label": "region",
+      "domain": "Food",
+      "range": "region"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Food",
+      "range": "language"
+    },
+    {
+      "pid": "order",
+      "label": "order",
+      "domain": "Food",
+      "range": "order"
+    },
+    {
+      "pid": "fat",
+      "label": "fat",
+      "domain": "Food",
+      "range": "fat"
+    },
+    {
+      "pid": "carbohydrate",
+      "label": "carbohydrate",
+      "domain": "Food",
+      "range": "carbohydrate"
+    },
+    {
+      "pid": "dishVariation",
+      "label": "dishVariation",
+      "domain": "Food",
+      "range": "dishVariation"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Food",
+      "range": "capital"
+    },
+    {
+      "pid": "servingTemperature",
+      "label": "servingTemperature",
+      "domain": "Food",
+      "range": "servingTemperature"
+    },
+    {
+      "pid": "alternativeName",
+      "label": "alternativeName",
+      "domain": "Food",
+      "range": "alternativeName"
+    },
+    {
+      "pid": "genus",
+      "label": "genus",
+      "domain": "Food",
+      "range": "genus"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Food",
+      "range": "demonym"
+    },
+    {
+      "pid": "ingredient",
+      "label": "ingredient",
+      "domain": "Food",
+      "range": "ingredient"
+    },
+    {
+      "pid": "mainIngredient",
+      "label": "mainIngredient",
+      "domain": "Food",
+      "range": "mainIngredient"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Food",
+      "range": "country"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Food",
+      "range": "currency"
+    },
+    {
+      "pid": "division",
+      "label": "division",
+      "domain": "Food",
+      "range": "division"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Food",
+      "range": "ethnicGroup"
+    },
+    {
+      "pid": "family",
+      "label": "family",
+      "domain": "Food",
+      "range": "family"
+    },
+    {
+      "pid": "course",
+      "label": "course",
+      "domain": "Food",
+      "range": "course"
+    },
+    {
+      "pid": "creator",
+      "label": "creator",
+      "domain": "Food",
+      "range": "creator"
+    }
+  ]
+}

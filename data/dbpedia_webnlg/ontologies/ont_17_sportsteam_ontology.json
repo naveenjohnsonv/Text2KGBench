@@ -1,0 +1,252 @@
+{
+  "title": "SportsTeam Ontology",
+  "id": "ont_17_sportsteam",
+  "concepts": [
+    {
+      "qid": "SportsTeam",
+      "label": "SportsTeam"
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    },
+    {
+      "qid": "",
+      "label": ""
+    }
+  ],
+  "relations": [
+    {
+      "pid": "mayor",
+      "label": "mayor",
+      "domain": "SportsTeam",
+      "range": "mayor"
+    },
+    {
+      "pid": "champions",
+      "label": "champions",
+      "domain": "SportsTeam",
+      "range": "champions"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "SportsTeam",
+      "range": "isPartOf"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "SportsTeam",
+      "range": "leader"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "SportsTeam",
+      "range": "birthPlace"
+    },
+    {
+      "pid": "season",
+      "label": "season",
+      "domain": "SportsTeam",
+      "range": "season"
+    },
+    {
+      "pid": "fullName",
+      "label": "fullName",
+      "domain": "SportsTeam",
+      "range": "fullName"
+    },
+    {
+      "pid": "nickname",
+      "label": "nickname",
+      "domain": "SportsTeam",
+      "range": "nickname"
+    },
+    {
+      "pid": "numberOfMembers",
+      "label": "numberOfMembers",
+      "domain": "SportsTeam",
+      "range": "numberOfMembers"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "SportsTeam",
+      "range": "language"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "SportsTeam",
+      "range": "city"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "SportsTeam",
+      "range": "capital"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "SportsTeam",
+      "range": "owner"
+    },
+    {
+      "pid": "chairmanTitle",
+      "label": "chairmanTitle",
+      "domain": "SportsTeam",
+      "range": "chairmanTitle"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "SportsTeam",
+      "range": "state"
+    },
+    {
+      "pid": "ground",
+      "label": "ground",
+      "domain": "SportsTeam",
+      "range": "ground"
+    },
+    {
+      "pid": "operator",
+      "label": "operator",
+      "domain": "SportsTeam",
+      "range": "operator"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "SportsTeam",
+      "range": "demonym"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "SportsTeam",
+      "range": "country"
+    },
+    {
+      "pid": "club",
+      "label": "club",
+      "domain": "SportsTeam",
+      "range": "club"
+    },
+    {
+      "pid": "manager",
+      "label": "manager",
+      "domain": "SportsTeam",
+      "range": "manager"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "SportsTeam",
+      "range": "location"
+    },
+    {
+      "pid": "tenant",
+      "label": "tenant",
+      "domain": "SportsTeam",
+      "range": "tenant"
+    },
+    {
+      "pid": "league",
+      "label": "league",
+      "domain": "SportsTeam",
+      "range": "league"
+    }
+  ]
+}
