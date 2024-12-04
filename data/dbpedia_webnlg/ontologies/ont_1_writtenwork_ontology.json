@@ -7,446 +7,306 @@
       "label": "WrittenWork"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Genre",
+      "label": "Genre"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "City",
+      "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "MediaType",
+      "label": "MediaType"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Company",
+      "label": "Company"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Person",
+      "label": "Person"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Organisation",
+      "label": "Organisation"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "AcademicDiscipline",
+      "label": "AcademicDiscipline"
     }
   ],
   "relations": [
     {
-      "pid": "doctoralAdvisor",
-      "label": "doctoralAdvisor",
-      "domain": "WrittenWork",
-      "range": "doctoralAdvisor"
-    },
-    {
-      "pid": "precededBy",
-      "label": "precededBy",
-      "domain": "WrittenWork",
-      "range": "precededBy"
-    },
-    {
-      "pid": "leaderTitle",
-      "label": "leaderTitle",
-      "domain": "WrittenWork",
-      "range": "leaderTitle"
-    },
-    {
-      "pid": "isbnNumber",
-      "label": "isbnNumber",
-      "domain": "WrittenWork",
-      "range": "isbnNumber"
-    },
-    {
-      "pid": "firstPublicationYear",
-      "label": "firstPublicationYear",
-      "domain": "WrittenWork",
-      "range": "firstPublicationYear"
-    },
-    {
-      "pid": "leader",
-      "label": "leader",
-      "domain": "WrittenWork",
-      "range": "leader"
-    },
-    {
-      "pid": "literaryGenre",
-      "label": "literaryGenre",
-      "domain": "WrittenWork",
-      "range": "literaryGenre"
-    },
-    {
-      "pid": "birthPlace",
-      "label": "birthPlace",
-      "domain": "WrittenWork",
-      "range": "birthPlace"
-    },
-    {
-      "pid": "codenCode",
-      "label": "codenCode",
-      "domain": "WrittenWork",
-      "range": "codenCode"
-    },
-    {
-      "pid": "founder",
-      "label": "founder",
-      "domain": "WrittenWork",
-      "range": "founder"
-    },
-    {
-      "pid": "almaMater",
-      "label": "almaMater",
-      "domain": "WrittenWork",
-      "range": "almaMater"
-    },
-    {
-      "pid": "nationality",
-      "label": "nationality",
-      "domain": "WrittenWork",
-      "range": "nationality"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "WrittenWork",
-      "range": "language"
-    },
-    {
       "pid": "numberOfPages",
       "label": "numberOfPages",
       "domain": "WrittenWork",
-      "range": "numberOfPages"
-    },
-    {
-      "pid": "affiliation",
-      "label": "affiliation",
-      "domain": "WrittenWork",
-      "range": "affiliation"
-    },
-    {
-      "pid": "author",
-      "label": "author",
-      "domain": "WrittenWork",
-      "range": "author"
-    },
-    {
-      "pid": "frequency",
-      "label": "frequency",
-      "domain": "WrittenWork",
-      "range": "frequency"
-    },
-    {
-      "pid": "academicDiscipline",
-      "label": "academicDiscipline",
-      "domain": "WrittenWork",
-      "range": "academicDiscipline"
-    },
-    {
-      "pid": "oclcNumber",
-      "label": "oclcNumber",
-      "domain": "WrittenWork",
-      "range": "oclcNumber"
-    },
-    {
-      "pid": "city",
-      "label": "city",
-      "domain": "WrittenWork",
-      "range": "city"
-    },
-    {
-      "pid": "capital",
-      "label": "capital",
-      "domain": "WrittenWork",
-      "range": "capital"
-    },
-    {
-      "pid": "spokenIn",
-      "label": "spokenIn",
-      "domain": "WrittenWork",
-      "range": "spokenIn"
-    },
-    {
-      "pid": "releaseDate",
-      "label": "releaseDate",
-      "domain": "WrittenWork",
-      "range": "releaseDate"
-    },
-    {
-      "pid": "state",
-      "label": "state",
-      "domain": "WrittenWork",
-      "range": "state"
-    },
-    {
-      "pid": "editor",
-      "label": "editor",
-      "domain": "WrittenWork",
-      "range": "editor"
-    },
-    {
-      "pid": "residence",
-      "label": "residence",
-      "domain": "WrittenWork",
-      "range": "residence"
+      "range": "number"
     },
     {
       "pid": "genre",
       "label": "genre",
       "domain": "WrittenWork",
-      "range": "genre"
+      "range": "Genre"
     },
     {
-      "pid": "LCCN_number",
-      "label": "LCCN_number",
-      "domain": "WrittenWork",
-      "range": "LCCN_number"
-    },
-    {
-      "pid": "impactFactor",
-      "label": "impactFactor",
-      "domain": "WrittenWork",
-      "range": "impactFactor"
-    },
-    {
-      "pid": "parentCompany",
-      "label": "parentCompany",
-      "domain": "WrittenWork",
-      "range": "parentCompany"
-    },
-    {
-      "pid": "president",
-      "label": "president",
-      "domain": "WrittenWork",
-      "range": "president"
-    },
-    {
-      "pid": "country",
-      "label": "country",
-      "domain": "WrittenWork",
-      "range": "country"
-    },
-    {
-      "pid": "influencedBy",
-      "label": "influencedBy",
-      "domain": "WrittenWork",
-      "range": "influencedBy"
-    },
-    {
-      "pid": "issnNumber",
-      "label": "issnNumber",
-      "domain": "WrittenWork",
-      "range": "issnNumber"
-    },
-    {
-      "pid": "headquarter",
-      "label": "headquarter",
-      "domain": "WrittenWork",
-      "range": "headquarter"
-    },
-    {
-      "pid": "abbreviation",
-      "label": "abbreviation",
-      "domain": "WrittenWork",
-      "range": "abbreviation"
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
     },
     {
       "pid": "mediaType",
       "label": "mediaType",
       "domain": "WrittenWork",
-      "range": "mediaType"
+      "range": "MediaType"
     },
     {
-      "pid": "libraryofCongressClassification",
-      "label": "libraryofCongressClassification",
-      "domain": "WrittenWork",
-      "range": "libraryofCongressClassification"
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "Company",
+      "range": "Company"
     },
     {
-      "pid": "followedBy",
-      "label": "followedBy",
-      "domain": "WrittenWork",
-      "range": "followedBy"
+      "pid": "residence",
+      "label": "residence",
+      "domain": "Person",
+      "range": "City"
     },
     {
-      "pid": "birthDate",
-      "label": "birthDate",
+      "pid": "releaseDate",
+      "label": "releaseDate",
       "domain": "WrittenWork",
-      "range": "birthDate"
+      "range": "Date"
     },
     {
-      "pid": "ethnicGroup",
-      "label": "ethnicGroup",
-      "domain": "WrittenWork",
-      "range": "ethnicGroup"
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Company",
+      "range": "City"
     },
     {
-      "pid": "notableWork",
-      "label": "notableWork",
-      "domain": "WrittenWork",
-      "range": "notableWork"
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Person",
+      "range": "Place"
     },
     {
-      "pid": "publisher",
-      "label": "publisher",
+      "pid": "impactFactor",
+      "label": "impactFactor",
       "domain": "WrittenWork",
-      "range": "publisher"
+      "range": "number"
+    },
+    {
+      "pid": "issnNumber",
+      "label": "issnNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "isbnNumber",
+      "label": "isbnNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Person",
+      "range": "Country"
+    },
+    {
+      "pid": "abbreviation",
+      "label": "abbreviation",
+      "domain": "WrittenWork",
+      "range": "string"
     },
     {
       "pid": "regionServed",
       "label": "regionServed",
       "domain": "WrittenWork",
-      "range": "regionServed"
+      "range": "Place"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "Person",
+      "range": "Organisation"
+    },
+    {
+      "pid": "oclcNumber",
+      "label": "oclcNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "literaryGenre",
+      "label": "literaryGenre",
+      "domain": "WrittenWork",
+      "range": "Genre"
+    },
+    {
+      "pid": "libraryofCongressClassification",
+      "label": "libraryofCongressClassification",
+      "domain": "WrittenWork",
+      "range": "string"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
+    },
+    {
+      "pid": "academicDiscipline",
+      "label": "academicDiscipline",
+      "domain": "WrittenWork",
+      "range": "AcademicDiscipline"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Country",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "firstPublicationYear",
+      "label": "firstPublicationYear",
+      "domain": "WrittenWork",
+      "range": "Year"
+    },
+    {
+      "pid": "author",
+      "label": "author",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "notableWork",
+      "label": "notableWork",
+      "domain": "Person",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "followedBy",
+      "label": "followedBy",
+      "domain": "WrittenWork",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "president",
+      "label": "president",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "precededBy",
+      "label": "precededBy",
+      "domain": "WrittenWork",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "doctoralAdvisor",
+      "label": "doctoralAdvisor",
+      "domain": "Person",
+      "range": "Person"
+    },
+    {
+      "pid": "frequency",
+      "label": "frequency",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "spokenIn",
+      "label": "spokenIn",
+      "domain": "Language",
+      "range": "Country"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Person",
+      "range": "School"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "WrittenWork",
+      "range": "Country"
+    },
+    {
+      "pid": "publisher",
+      "label": "publisher",
+      "domain": "WrittenWork",
+      "range": "Company"
+    },
+    {
+      "pid": "editor",
+      "label": "editor",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "LCCN_number",
+      "label": "LCCN_number",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "WrittenWork",
+      "range": "Language"
+    },
+    {
+      "pid": "codenCode",
+      "label": "codenCode",
+      "domain": "WrittenWork",
+      "range": "string"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "City",
+      "range": "State"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Person",
+      "range": "Date"
+    },
+    {
+      "pid": "founder",
+      "label": "founder",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "influencedBy",
+      "label": "influencedBy",
+      "domain": "Person",
+      "range": "Person"
     }
   ]
 }

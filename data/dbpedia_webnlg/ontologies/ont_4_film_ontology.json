@@ -7,446 +7,338 @@
       "label": "Film"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Channel",
+      "label": "Channel"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Organisation",
+      "label": "Organisation"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Company",
+      "label": "Company"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Artist",
+      "label": "Artist"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Type",
+      "label": "Type"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "City",
+      "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Industry",
+      "label": "Industry"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Occupation",
+      "label": "Occupation"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Person",
+      "label": "Person"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Background",
+      "label": "Background"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Service",
+      "label": "Service"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Cinematography",
+      "label": "Cinematography"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Language",
+      "label": "Language"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Station",
+      "label": "Station"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "Club",
+      "label": "Club"
     }
   ],
   "relations": [
     {
-      "pid": "editing",
-      "label": "editing",
-      "domain": "Film",
-      "range": "editing"
-    },
-    {
-      "pid": "background",
-      "label": "background",
-      "domain": "Film",
-      "range": "background"
-    },
-    {
-      "pid": "spouse",
-      "label": "spouse",
-      "domain": "Film",
-      "range": "spouse"
-    },
-    {
-      "pid": "activeYearsStartYear",
-      "label": "activeYearsStartYear",
-      "domain": "Film",
-      "range": "activeYearsStartYear"
-    },
-    {
-      "pid": "occupation",
-      "label": "occupation",
-      "domain": "Film",
-      "range": "occupation"
-    },
-    {
       "pid": "timeshiftChannel",
       "label": "timeshiftChannel",
       "domain": "Film",
-      "range": "timeshiftChannel"
-    },
-    {
-      "pid": "sisterStation",
-      "label": "sisterStation",
-      "domain": "Film",
-      "range": "sisterStation"
-    },
-    {
-      "pid": "birthPlace",
-      "label": "birthPlace",
-      "domain": "Film",
-      "range": "birthPlace"
-    },
-    {
-      "pid": "foundingYear",
-      "label": "foundingYear",
-      "domain": "Film",
-      "range": "foundingYear"
-    },
-    {
-      "pid": "keyPerson",
-      "label": "keyPerson",
-      "domain": "Film",
-      "range": "keyPerson"
-    },
-    {
-      "pid": "birthYear",
-      "label": "birthYear",
-      "domain": "Film",
-      "range": "birthYear"
-    },
-    {
-      "pid": "iso6391Code",
-      "label": "iso6391Code",
-      "domain": "Film",
-      "range": "iso6391Code"
-    },
-    {
-      "pid": "service",
-      "label": "service",
-      "domain": "Film",
-      "range": "service"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "Film",
-      "range": "language"
-    },
-    {
-      "pid": "distributor",
-      "label": "distributor",
-      "domain": "Film",
-      "range": "distributor"
-    },
-    {
-      "pid": "birthName",
-      "label": "birthName",
-      "domain": "Film",
-      "range": "birthName"
-    },
-    {
-      "pid": "imdbId",
-      "label": "imdbId",
-      "domain": "Film",
-      "range": "imdbId"
-    },
-    {
-      "pid": "deathDate",
-      "label": "deathDate",
-      "domain": "Film",
-      "range": "deathDate"
-    },
-    {
-      "pid": "owner",
-      "label": "owner",
-      "domain": "Film",
-      "range": "owner"
-    },
-    {
-      "pid": "spokenIn",
-      "label": "spokenIn",
-      "domain": "Film",
-      "range": "spokenIn"
-    },
-    {
-      "pid": "iso6392Code",
-      "label": "iso6392Code",
-      "domain": "Film",
-      "range": "iso6392Code"
-    },
-    {
-      "pid": "releaseDate",
-      "label": "releaseDate",
-      "domain": "Film",
-      "range": "releaseDate"
-    },
-    {
-      "pid": "musicComposer",
-      "label": "musicComposer",
-      "domain": "Film",
-      "range": "musicComposer"
-    },
-    {
-      "pid": "industry",
-      "label": "industry",
-      "domain": "Film",
-      "range": "industry"
-    },
-    {
-      "pid": "cinematography",
-      "label": "cinematography",
-      "domain": "Film",
-      "range": "cinematography"
-    },
-    {
-      "pid": "editor",
-      "label": "editor",
-      "domain": "Film",
-      "range": "editor"
-    },
-    {
-      "pid": "foundedBy",
-      "label": "foundedBy",
-      "domain": "Film",
-      "range": "foundedBy"
-    },
-    {
-      "pid": "budget",
-      "label": "budget",
-      "domain": "Film",
-      "range": "budget"
-    },
-    {
-      "pid": "writer",
-      "label": "writer",
-      "domain": "Film",
-      "range": "writer"
-    },
-    {
-      "pid": "starring",
-      "label": "starring",
-      "domain": "Film",
-      "range": "starring"
-    },
-    {
-      "pid": "gross",
-      "label": "gross",
-      "domain": "Film",
-      "range": "gross"
-    },
-    {
-      "pid": "producer",
-      "label": "producer",
-      "domain": "Film",
-      "range": "producer"
-    },
-    {
-      "pid": "club",
-      "label": "club",
-      "domain": "Film",
-      "range": "club"
-    },
-    {
-      "pid": "deathPlace",
-      "label": "deathPlace",
-      "domain": "Film",
-      "range": "deathPlace"
-    },
-    {
-      "pid": "location",
-      "label": "location",
-      "domain": "Film",
-      "range": "location"
-    },
-    {
-      "pid": "broadcastedBy",
-      "label": "broadcastedBy",
-      "domain": "Film",
-      "range": "broadcastedBy"
-    },
-    {
-      "pid": "type",
-      "label": "type",
-      "domain": "Film",
-      "range": "type"
-    },
-    {
-      "pid": "headquarter",
-      "label": "headquarter",
-      "domain": "Film",
-      "range": "headquarter"
+      "range": "Channel"
     },
     {
       "pid": "director",
       "label": "director",
       "domain": "Film",
-      "range": "director"
+      "range": "Person"
     },
     {
-      "pid": "formerName",
-      "label": "formerName",
+      "pid": "imdbId",
+      "label": "imdbId",
       "domain": "Film",
-      "range": "formerName"
+      "range": "string"
     },
     {
-      "pid": "birthDate",
-      "label": "birthDate",
+      "pid": "distributor",
+      "label": "distributor",
       "domain": "Film",
-      "range": "birthDate"
+      "range": "Company"
+    },
+    {
+      "pid": "musicComposer",
+      "label": "musicComposer",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "Film",
+      "range": "Type"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Artist",
+      "range": "Date"
+    },
+    {
+      "pid": "club",
+      "label": "club",
+      "domain": "Film",
+      "range": "Club"
+    },
+    {
+      "pid": "editing",
+      "label": "editing",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "releaseDate",
+      "label": "releaseDate",
+      "domain": "Film",
+      "range": "Date"
     },
     {
       "pid": "child",
       "label": "child",
+      "domain": "Artist",
+      "range": "Person"
+    },
+    {
+      "pid": "producer",
+      "label": "producer",
       "domain": "Film",
-      "range": "child"
+      "range": "Person"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Artist",
+      "range": "Place"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Artist",
+      "range": "Place"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "budget",
+      "label": "budget",
+      "domain": "Film",
+      "range": "number"
     },
     {
       "pid": "runtime",
       "label": "runtime",
       "domain": "Film",
-      "range": "runtime"
+      "range": "number"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "starring",
+      "label": "starring",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "iso6392Code",
+      "label": "iso6392Code",
+      "domain": "City",
+      "range": "string"
+    },
+    {
+      "pid": "writer",
+      "label": "writer",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "industry",
+      "label": "industry",
+      "domain": "Company",
+      "range": "Industry"
+    },
+    {
+      "pid": "activeYearsStartYear",
+      "label": "activeYearsStartYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "occupation",
+      "label": "occupation",
+      "domain": "Artist",
+      "range": "Occupation"
+    },
+    {
+      "pid": "sisterStation",
+      "label": "sisterStation",
+      "domain": "Film",
+      "range": "Station"
+    },
+    {
+      "pid": "spouse",
+      "label": "spouse",
+      "domain": "Artist",
+      "range": "Person"
+    },
+    {
+      "pid": "spokenIn",
+      "label": "spokenIn",
+      "domain": "Language",
+      "range": "Country"
+    },
+    {
+      "pid": "gross",
+      "label": "gross",
+      "domain": "Film",
+      "range": "number"
+    },
+    {
+      "pid": "formerName",
+      "label": "formerName",
+      "domain": "Artist",
+      "range": "string"
+    },
+    {
+      "pid": "birthYear",
+      "label": "birthYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "birthName",
+      "label": "birthName",
+      "domain": "Artist",
+      "range": "string"
+    },
+    {
+      "pid": "editor",
+      "label": "editor",
+      "domain": "Film",
+      "range": "Person"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Film",
+      "range": "Language"
+    },
+    {
+      "pid": "background",
+      "label": "background",
+      "domain": "Film",
+      "range": "Background"
+    },
+    {
+      "pid": "service",
+      "label": "service",
+      "domain": "Company",
+      "range": "Service"
+    },
+    {
+      "pid": "cinematography",
+      "label": "cinematography",
+      "domain": "Film",
+      "range": "Cinematography"
     },
     {
       "pid": "deathYear",
       "label": "deathYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Artist",
+      "range": "Date"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Organisation",
+      "range": "Person"
+    },
+    {
+      "pid": "foundedBy",
+      "label": "foundedBy",
+      "domain": "Organisation",
+      "range": "Person"
+    },
+    {
+      "pid": "iso6391Code",
+      "label": "iso6391Code",
+      "domain": "Country",
+      "range": "string"
+    },
+    {
+      "pid": "foundingYear",
+      "label": "foundingYear",
+      "domain": "Organisation",
+      "range": "Year"
+    },
+    {
+      "pid": "broadcastedBy",
+      "label": "broadcastedBy",
       "domain": "Film",
-      "range": "deathYear"
+      "range": "Company"
     }
   ]
 }

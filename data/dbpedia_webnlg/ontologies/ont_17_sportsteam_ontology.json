@@ -7,246 +7,202 @@
       "label": "SportsTeam"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Athlete",
+      "label": "Athlete"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "City",
+      "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Person",
+      "label": "Person"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Demonym",
+      "label": "Demonym"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "League",
+      "label": "League"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Tenant",
+      "label": "Tenant"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Language",
+      "label": "Language"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Season",
+      "label": "Season"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "State",
+      "label": "State"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Ground",
+      "label": "Ground"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "Company",
+      "label": "Company"
     }
   ],
   "relations": [
     {
-      "pid": "mayor",
-      "label": "mayor",
-      "domain": "SportsTeam",
-      "range": "mayor"
-    },
-    {
-      "pid": "champions",
-      "label": "champions",
-      "domain": "SportsTeam",
-      "range": "champions"
-    },
-    {
-      "pid": "isPartOf",
-      "label": "isPartOf",
-      "domain": "SportsTeam",
-      "range": "isPartOf"
-    },
-    {
-      "pid": "leader",
-      "label": "leader",
-      "domain": "SportsTeam",
-      "range": "leader"
-    },
-    {
-      "pid": "birthPlace",
-      "label": "birthPlace",
-      "domain": "SportsTeam",
-      "range": "birthPlace"
-    },
-    {
-      "pid": "season",
-      "label": "season",
-      "domain": "SportsTeam",
-      "range": "season"
-    },
-    {
-      "pid": "fullName",
-      "label": "fullName",
-      "domain": "SportsTeam",
-      "range": "fullName"
-    },
-    {
-      "pid": "nickname",
-      "label": "nickname",
-      "domain": "SportsTeam",
-      "range": "nickname"
-    },
-    {
-      "pid": "numberOfMembers",
-      "label": "numberOfMembers",
-      "domain": "SportsTeam",
-      "range": "numberOfMembers"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "SportsTeam",
-      "range": "language"
-    },
-    {
-      "pid": "city",
-      "label": "city",
-      "domain": "SportsTeam",
-      "range": "city"
+      "pid": "club",
+      "label": "club",
+      "domain": "Athlete",
+      "range": "SportsTeam"
     },
     {
       "pid": "capital",
       "label": "capital",
-      "domain": "SportsTeam",
-      "range": "capital"
+      "domain": "Country",
+      "range": "City"
     },
     {
-      "pid": "owner",
-      "label": "owner",
-      "domain": "SportsTeam",
-      "range": "owner"
+      "pid": "fullName",
+      "label": "fullName",
+      "domain": "Athlete",
+      "range": "string"
     },
     {
-      "pid": "chairmanTitle",
-      "label": "chairmanTitle",
-      "domain": "SportsTeam",
-      "range": "chairmanTitle"
+      "pid": "mayor",
+      "label": "mayor",
+      "domain": "City",
+      "range": "Person"
     },
     {
-      "pid": "state",
-      "label": "state",
-      "domain": "SportsTeam",
-      "range": "state"
-    },
-    {
-      "pid": "ground",
-      "label": "ground",
-      "domain": "SportsTeam",
-      "range": "ground"
-    },
-    {
-      "pid": "operator",
-      "label": "operator",
-      "domain": "SportsTeam",
-      "range": "operator"
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Person",
+      "range": "Place"
     },
     {
       "pid": "demonym",
       "label": "demonym",
-      "domain": "SportsTeam",
-      "range": "demonym"
+      "domain": "Country",
+      "range": "Demonym"
     },
     {
-      "pid": "country",
-      "label": "country",
-      "domain": "SportsTeam",
-      "range": "country"
-    },
-    {
-      "pid": "club",
-      "label": "club",
-      "domain": "SportsTeam",
-      "range": "club"
-    },
-    {
-      "pid": "manager",
-      "label": "manager",
-      "domain": "SportsTeam",
-      "range": "manager"
+      "pid": "champions",
+      "label": "champions",
+      "domain": "League",
+      "range": "SportsTeam"
     },
     {
       "pid": "location",
       "label": "location",
       "domain": "SportsTeam",
-      "range": "location"
+      "range": "Place"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "SportsTeam",
+      "range": "Person"
+    },
+    {
+      "pid": "nickname",
+      "label": "nickname",
+      "domain": "Person",
+      "range": "string"
+    },
+    {
+      "pid": "numberOfMembers",
+      "label": "numberOfMembers",
+      "domain": "SportsTeam",
+      "range": "number"
     },
     {
       "pid": "tenant",
       "label": "tenant",
       "domain": "SportsTeam",
-      "range": "tenant"
+      "range": "Tenant"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "SportsTeam",
+      "range": "City"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "City",
+      "range": "Country"
+    },
+    {
+      "pid": "chairmanTitle",
+      "label": "chairmanTitle",
+      "domain": "SportsTeam",
+      "range": "string"
     },
     {
       "pid": "league",
       "label": "league",
       "domain": "SportsTeam",
-      "range": "league"
+      "range": "League"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "City",
+      "range": "Country"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Country",
+      "range": "Language"
+    },
+    {
+      "pid": "season",
+      "label": "season",
+      "domain": "SportsTeam",
+      "range": "Season"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "City",
+      "range": "State"
+    },
+    {
+      "pid": "ground",
+      "label": "ground",
+      "domain": "SportsTeam",
+      "range": "Ground"
+    },
+    {
+      "pid": "operator",
+      "label": "operator",
+      "domain": "SportsTeam",
+      "range": "Company"
+    },
+    {
+      "pid": "manager",
+      "label": "manager",
+      "domain": "SportsTeam",
+      "range": "Person"
     }
   ]
 }

@@ -7,276 +7,80 @@
       "label": "MeanOfTransportation"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "City",
+      "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Function",
+      "label": "Function"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Ship",
+      "label": "Ship"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "ShipClass",
+      "label": "ShipClass"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Product",
+      "label": "Product"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Demonym",
+      "label": "Demonym"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Airport",
+      "label": "Airport"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Flight",
+      "label": "Flight"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Organisation",
+      "label": "Organisation"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Anthem",
+      "label": "Anthem"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "PowerType",
+      "label": "PowerType"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Division",
+      "label": "Division"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Saint",
+      "label": "Saint"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Language",
+      "label": "Language"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "BodyStyle",
+      "label": "BodyStyle"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "Wheelbase",
+      "label": "Wheelbase"
     }
   ],
   "relations": [
@@ -284,343 +88,85 @@
       "pid": "launchSite",
       "label": "launchSite",
       "domain": "MeanOfTransportation",
-      "range": "launchSite"
-    },
-    {
-      "pid": "status",
-      "label": "status",
-      "domain": "MeanOfTransportation",
-      "range": "status"
-    },
-    {
-      "pid": "isPartOf",
-      "label": "isPartOf",
-      "domain": "MeanOfTransportation",
-      "range": "isPartOf"
-    },
-    {
-      "pid": "leaderTitle",
-      "label": "leaderTitle",
-      "domain": "MeanOfTransportation",
-      "range": "leaderTitle"
-    },
-    {
-      "pid": "fate",
-      "label": "fate",
-      "domain": "MeanOfTransportation",
-      "range": "fate"
-    },
-    {
-      "pid": "christeningDate",
-      "label": "christeningDate",
-      "domain": "MeanOfTransportation",
-      "range": "christeningDate"
-    },
-    {
-      "pid": "manufacturer",
-      "label": "manufacturer",
-      "domain": "MeanOfTransportation",
-      "range": "manufacturer"
-    },
-    {
-      "pid": "leader",
-      "label": "leader",
-      "domain": "MeanOfTransportation",
-      "range": "leader"
-    },
-    {
-      "pid": "shipBeam",
-      "label": "shipBeam",
-      "domain": "MeanOfTransportation",
-      "range": "shipBeam"
-    },
-    {
-      "pid": "powerType",
-      "label": "powerType",
-      "domain": "MeanOfTransportation",
-      "range": "powerType"
-    },
-    {
-      "pid": "modelYears",
-      "label": "modelYears",
-      "domain": "MeanOfTransportation",
-      "range": "modelYears"
-    },
-    {
-      "pid": "activeYearsStartDate",
-      "label": "activeYearsStartDate",
-      "domain": "MeanOfTransportation",
-      "range": "activeYearsStartDate"
-    },
-    {
-      "pid": "keyPerson",
-      "label": "keyPerson",
-      "domain": "MeanOfTransportation",
-      "range": "keyPerson"
-    },
-    {
-      "pid": "builder",
-      "label": "builder",
-      "domain": "MeanOfTransportation",
-      "range": "builder"
-    },
-    {
-      "pid": "areaTotal",
-      "label": "areaTotal",
-      "domain": "MeanOfTransportation",
-      "range": "areaTotal"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "MeanOfTransportation",
-      "range": "language"
-    },
-    {
-      "pid": "anthem",
-      "label": "anthem",
-      "domain": "MeanOfTransportation",
-      "range": "anthem"
-    },
-    {
-      "pid": "designCompany",
-      "label": "designCompany",
-      "domain": "MeanOfTransportation",
-      "range": "designCompany"
-    },
-    {
-      "pid": "foundationPlace",
-      "label": "foundationPlace",
-      "domain": "MeanOfTransportation",
-      "range": "foundationPlace"
-    },
-    {
-      "pid": "saint",
-      "label": "saint",
-      "domain": "MeanOfTransportation",
-      "range": "saint"
-    },
-    {
-      "pid": "city",
-      "label": "city",
-      "domain": "MeanOfTransportation",
-      "range": "city"
-    },
-    {
-      "pid": "shipClass",
-      "label": "shipClass",
-      "domain": "MeanOfTransportation",
-      "range": "shipClass"
-    },
-    {
-      "pid": "capital",
-      "label": "capital",
-      "domain": "MeanOfTransportation",
-      "range": "capital"
-    },
-    {
-      "pid": "failedLaunches",
-      "label": "failedLaunches",
-      "domain": "MeanOfTransportation",
-      "range": "failedLaunches"
-    },
-    {
-      "pid": "owner",
-      "label": "owner",
-      "domain": "MeanOfTransportation",
-      "range": "owner"
-    },
-    {
-      "pid": "engine",
-      "label": "engine",
-      "domain": "MeanOfTransportation",
-      "range": "engine"
-    },
-    {
-      "pid": "shipDisplacement",
-      "label": "shipDisplacement",
-      "domain": "MeanOfTransportation",
-      "range": "shipDisplacement"
-    },
-    {
-      "pid": "productionEndYear",
-      "label": "productionEndYear",
-      "domain": "MeanOfTransportation",
-      "range": "productionEndYear"
+      "range": "Place"
     },
     {
       "pid": "topSpeed",
       "label": "topSpeed",
       "domain": "MeanOfTransportation",
-      "range": "topSpeed"
+      "range": "number"
     },
     {
-      "pid": "site",
-      "label": "site",
+      "pid": "buildDate",
+      "label": "buildDate",
       "domain": "MeanOfTransportation",
-      "range": "site"
-    },
-    {
-      "pid": "product",
-      "label": "product",
-      "domain": "MeanOfTransportation",
-      "range": "product"
-    },
-    {
-      "pid": "shipLaunch",
-      "label": "shipLaunch",
-      "domain": "MeanOfTransportation",
-      "range": "shipLaunch"
-    },
-    {
-      "pid": "shipDraft",
-      "label": "shipDraft",
-      "domain": "MeanOfTransportation",
-      "range": "shipDraft"
-    },
-    {
-      "pid": "extinctionDate",
-      "label": "extinctionDate",
-      "domain": "MeanOfTransportation",
-      "range": "extinctionDate"
-    },
-    {
-      "pid": "alternativeName",
-      "label": "alternativeName",
-      "domain": "MeanOfTransportation",
-      "range": "alternativeName"
-    },
-    {
-      "pid": "totalLaunches",
-      "label": "totalLaunches",
-      "domain": "MeanOfTransportation",
-      "range": "totalLaunches"
-    },
-    {
-      "pid": "productionStartYear",
-      "label": "productionStartYear",
-      "domain": "MeanOfTransportation",
-      "range": "productionStartYear"
-    },
-    {
-      "pid": "diameter",
-      "label": "diameter",
-      "domain": "MeanOfTransportation",
-      "range": "diameter"
-    },
-    {
-      "pid": "foundedBy",
-      "label": "foundedBy",
-      "domain": "MeanOfTransportation",
-      "range": "foundedBy"
-    },
-    {
-      "pid": "class",
-      "label": "class",
-      "domain": "MeanOfTransportation",
-      "range": "class"
-    },
-    {
-      "pid": "operator",
-      "label": "operator",
-      "domain": "MeanOfTransportation",
-      "range": "operator"
-    },
-    {
-      "pid": "countryOrigin",
-      "label": "countryOrigin",
-      "domain": "MeanOfTransportation",
-      "range": "countryOrigin"
-    },
-    {
-      "pid": "demonym",
-      "label": "demonym",
-      "domain": "MeanOfTransportation",
-      "range": "demonym"
-    },
-    {
-      "pid": "maidenVoyage",
-      "label": "maidenVoyage",
-      "domain": "MeanOfTransportation",
-      "range": "maidenVoyage"
-    },
-    {
-      "pid": "parentCompany",
-      "label": "parentCompany",
-      "domain": "MeanOfTransportation",
-      "range": "parentCompany"
-    },
-    {
-      "pid": "rocketStages",
-      "label": "rocketStages",
-      "domain": "MeanOfTransportation",
-      "range": "rocketStages"
-    },
-    {
-      "pid": "comparable",
-      "label": "comparable",
-      "domain": "MeanOfTransportation",
-      "range": "comparable"
-    },
-    {
-      "pid": "cylinderCount",
-      "label": "cylinderCount",
-      "domain": "MeanOfTransportation",
-      "range": "cylinderCount"
-    },
-    {
-      "pid": "wheelbase",
-      "label": "wheelbase",
-      "domain": "MeanOfTransportation",
-      "range": "wheelbase"
-    },
-    {
-      "pid": "country",
-      "label": "country",
-      "domain": "MeanOfTransportation",
-      "range": "country"
-    },
-    {
-      "pid": "length",
-      "label": "length",
-      "domain": "MeanOfTransportation",
-      "range": "length"
-    },
-    {
-      "pid": "assembly",
-      "label": "assembly",
-      "domain": "MeanOfTransportation",
-      "range": "assembly"
-    },
-    {
-      "pid": "bodyStyle",
-      "label": "bodyStyle",
-      "domain": "MeanOfTransportation",
-      "range": "bodyStyle"
-    },
-    {
-      "pid": "location",
-      "label": "location",
-      "domain": "MeanOfTransportation",
-      "range": "location"
+      "range": "Date"
     },
     {
       "pid": "totalProduction",
       "label": "totalProduction",
       "domain": "MeanOfTransportation",
-      "range": "totalProduction"
+      "range": "number"
     },
     {
-      "pid": "shipOrdered",
-      "label": "shipOrdered",
+      "pid": "completionDate",
+      "label": "completionDate",
       "domain": "MeanOfTransportation",
-      "range": "shipOrdered"
+      "range": "Date"
     },
     {
-      "pid": "division",
-      "label": "division",
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "Company",
+      "range": "Company"
+    },
+    {
+      "pid": "activeYearsStartDate",
+      "label": "activeYearsStartDate",
       "domain": "MeanOfTransportation",
-      "range": "division"
+      "range": "Date"
+    },
+    {
+      "pid": "shipDraft",
+      "label": "shipDraft",
+      "domain": "MeanOfTransportation",
+      "range": "Ship"
+    },
+    {
+      "pid": "function",
+      "label": "function",
+      "domain": "MeanOfTransportation",
+      "range": "Function"
+    },
+    {
+      "pid": "shipClass",
+      "label": "shipClass",
+      "domain": "MeanOfTransportation",
+      "range": "ShipClass"
+    },
+    {
+      "pid": "product",
+      "label": "product",
+      "domain": "Company",
+      "range": "Product"
+    },
+    {
+      "pid": "alternativeName",
+      "label": "alternativeName",
+      "domain": "MeanOfTransportation",
+      "range": "string"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "MeanOfTransportation",
+      "range": "Demonym"
     },
     {
       "pid": "headquarter",
@@ -629,16 +175,88 @@
       "range": "headquarter"
     },
     {
-      "pid": "successor",
-      "label": "successor",
+      "pid": "countryOrigin",
+      "label": "countryOrigin",
       "domain": "MeanOfTransportation",
-      "range": "successor"
+      "range": "Country"
+    },
+    {
+      "pid": "assembly",
+      "label": "assembly",
+      "domain": "MeanOfTransportation",
+      "range": "Place"
+    },
+    {
+      "pid": "maidenFlight",
+      "label": "maidenFlight",
+      "domain": "Airport",
+      "range": "Flight"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "MeanOfTransportation",
+      "range": "Place"
+    },
+    {
+      "pid": "transmission",
+      "label": "transmission",
+      "domain": "MeanOfTransportation",
+      "range": "transmission"
+    },
+    {
+      "pid": "length",
+      "label": "length",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "shipDisplacement",
+      "label": "shipDisplacement",
+      "domain": "MeanOfTransportation",
+      "range": "shipDisplacement"
+    },
+    {
+      "pid": "site",
+      "label": "site",
+      "domain": "MeanOfTransportation",
+      "range": "Place"
     },
     {
       "pid": "finalFlight",
       "label": "finalFlight",
       "domain": "MeanOfTransportation",
-      "range": "finalFlight"
+      "range": "Flight"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "MeanOfTransportation",
+      "range": "Organisation"
+    },
+    {
+      "pid": "fate",
+      "label": "fate",
+      "domain": "MeanOfTransportation",
+      "range": "Fate"
+    },
+    {
+      "pid": "anthem",
+      "label": "anthem",
+      "domain": "MeanOfTransportation",
+      "range": "Anthem"
+    },
+    {
+      "pid": "powerType",
+      "label": "powerType",
+      "domain": "MeanOfTransportation",
+      "range": "PowerType"
+    },
+    {
+      "pid": "diameter",
+      "label": "diameter",
+      "domain": "MeanOfTransportation",
+      "range": "number"
     },
     {
       "pid": "subsidiary",
@@ -647,46 +265,232 @@
       "range": "subsidiary"
     },
     {
-      "pid": "completionDate",
-      "label": "completionDate",
-      "domain": "MeanOfTransportation",
-      "range": "completionDate"
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
     },
     {
-      "pid": "buildDate",
-      "label": "buildDate",
+      "pid": "christeningDate",
+      "label": "christeningDate",
       "domain": "MeanOfTransportation",
-      "range": "buildDate"
-    },
-    {
-      "pid": "maidenFlight",
-      "label": "maidenFlight",
-      "domain": "MeanOfTransportation",
-      "range": "maidenFlight"
-    },
-    {
-      "pid": "function",
-      "label": "function",
-      "domain": "MeanOfTransportation",
-      "range": "function"
+      "range": "Date"
     },
     {
       "pid": "ethnicGroup",
       "label": "ethnicGroup",
-      "domain": "MeanOfTransportation",
-      "range": "ethnicGroup"
+      "domain": "Country",
+      "range": "EthnicGroup"
     },
     {
       "pid": "relatedMeanOfTransportation",
       "label": "relatedMeanOfTransportation",
       "domain": "MeanOfTransportation",
-      "range": "relatedMeanOfTransportation"
+      "range": "MeanOfTransportation"
     },
     {
-      "pid": "transmission",
-      "label": "transmission",
+      "pid": "city",
+      "label": "city",
       "domain": "MeanOfTransportation",
-      "range": "transmission"
+      "range": "City"
+    },
+    {
+      "pid": "status",
+      "label": "status",
+      "domain": "MeanOfTransportation",
+      "range": "string"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "shipBeam",
+      "label": "shipBeam",
+      "domain": "MeanOfTransportation",
+      "range": "shipBeam"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "City",
+      "range": "Country"
+    },
+    {
+      "pid": "extinctionDate",
+      "label": "extinctionDate",
+      "domain": "MeanOfTransportation",
+      "range": "Date"
+    },
+    {
+      "pid": "engine",
+      "label": "engine",
+      "domain": "MeanOfTransportation",
+      "range": "string"
+    },
+    {
+      "pid": "productionStartYear",
+      "label": "productionStartYear",
+      "domain": "MeanOfTransportation",
+      "range": "Year"
+    },
+    {
+      "pid": "manufacturer",
+      "label": "manufacturer",
+      "domain": "MeanOfTransportation",
+      "range": "Company"
+    },
+    {
+      "pid": "successor",
+      "label": "successor",
+      "domain": "Person",
+      "range": "Person"
+    },
+    {
+      "pid": "failedLaunches",
+      "label": "failedLaunches",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "builder",
+      "label": "builder",
+      "domain": "MeanOfTransportation",
+      "range": "Company"
+    },
+    {
+      "pid": "foundationPlace",
+      "label": "foundationPlace",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "modelYears",
+      "label": "modelYears",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "totalLaunches",
+      "label": "totalLaunches",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "MeanOfTransportation",
+      "range": "Country"
+    },
+    {
+      "pid": "shipLaunch",
+      "label": "shipLaunch",
+      "domain": "MeanOfTransportation",
+      "range": "Ship"
+    },
+    {
+      "pid": "division",
+      "label": "division",
+      "domain": "MeanOfTransportation",
+      "range": "Division"
+    },
+    {
+      "pid": "designCompany",
+      "label": "designCompany",
+      "domain": "MeanOfTransportation",
+      "range": "Company"
+    },
+    {
+      "pid": "saint",
+      "label": "saint",
+      "domain": "Country",
+      "range": "Saint"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Country",
+      "range": "Language"
+    },
+    {
+      "pid": "productionEndYear",
+      "label": "productionEndYear",
+      "domain": "MeanOfTransportation",
+      "range": "Year"
+    },
+    {
+      "pid": "comparable",
+      "label": "comparable",
+      "domain": "MeanOfTransportation",
+      "range": "MeanOfTransportation"
+    },
+    {
+      "pid": "cylinderCount",
+      "label": "cylinderCount",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "shipOrdered",
+      "label": "shipOrdered",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "foundedBy",
+      "label": "foundedBy",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "operator",
+      "label": "operator",
+      "domain": "MeanOfTransportation",
+      "range": "Company"
+    },
+    {
+      "pid": "class",
+      "label": "class",
+      "domain": "MeanOfTransportation",
+      "range": "Class"
+    },
+    {
+      "pid": "rocketStages",
+      "label": "rocketStages",
+      "domain": "MeanOfTransportation",
+      "range": "number"
+    },
+    {
+      "pid": "maidenVoyage",
+      "label": "maidenVoyage",
+      "domain": "MeanOfTransportation",
+      "range": "Date"
+    },
+    {
+      "pid": "bodyStyle",
+      "label": "bodyStyle",
+      "domain": "MeanOfTransportation",
+      "range": "BodyStyle"
+    },
+    {
+      "pid": "wheelbase",
+      "label": "wheelbase",
+      "domain": "MeanOfTransportation",
+      "range": "Wheelbase"
     }
   ]
 }

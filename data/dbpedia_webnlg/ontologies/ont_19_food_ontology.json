@@ -7,246 +7,194 @@
       "label": "Food"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "City",
+      "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Language",
+      "label": "Language"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "FoodFamily",
+      "label": "FoodFamily"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Division",
+      "label": "Division"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Person",
+      "label": "Person"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Currency",
+      "label": "Currency"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Demonym",
+      "label": "Demonym"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "Genus",
+      "label": "Genus"
     }
   ],
   "relations": [
     {
-      "pid": "isPartOf",
-      "label": "isPartOf",
+      "pid": "carbohydrate",
+      "label": "carbohydrate",
       "domain": "Food",
-      "range": "isPartOf"
-    },
-    {
-      "pid": "leaderTitle",
-      "label": "leaderTitle",
-      "domain": "Food",
-      "range": "leaderTitle"
-    },
-    {
-      "pid": "leader",
-      "label": "leader",
-      "domain": "Food",
-      "range": "leader"
+      "range": "number"
     },
     {
       "pid": "protein",
       "label": "protein",
       "domain": "Food",
-      "range": "protein"
-    },
-    {
-      "pid": "region",
-      "label": "region",
-      "domain": "Food",
-      "range": "region"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "Food",
-      "range": "language"
-    },
-    {
-      "pid": "order",
-      "label": "order",
-      "domain": "Food",
-      "range": "order"
-    },
-    {
-      "pid": "fat",
-      "label": "fat",
-      "domain": "Food",
-      "range": "fat"
-    },
-    {
-      "pid": "carbohydrate",
-      "label": "carbohydrate",
-      "domain": "Food",
-      "range": "carbohydrate"
-    },
-    {
-      "pid": "dishVariation",
-      "label": "dishVariation",
-      "domain": "Food",
-      "range": "dishVariation"
-    },
-    {
-      "pid": "capital",
-      "label": "capital",
-      "domain": "Food",
-      "range": "capital"
-    },
-    {
-      "pid": "servingTemperature",
-      "label": "servingTemperature",
-      "domain": "Food",
-      "range": "servingTemperature"
-    },
-    {
-      "pid": "alternativeName",
-      "label": "alternativeName",
-      "domain": "Food",
-      "range": "alternativeName"
-    },
-    {
-      "pid": "genus",
-      "label": "genus",
-      "domain": "Food",
-      "range": "genus"
-    },
-    {
-      "pid": "demonym",
-      "label": "demonym",
-      "domain": "Food",
-      "range": "demonym"
-    },
-    {
-      "pid": "ingredient",
-      "label": "ingredient",
-      "domain": "Food",
-      "range": "ingredient"
+      "range": "number"
     },
     {
       "pid": "mainIngredient",
       "label": "mainIngredient",
       "domain": "Food",
-      "range": "mainIngredient"
+      "range": "Ingredient"
     },
     {
-      "pid": "country",
-      "label": "country",
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "genus",
+      "label": "genus",
       "domain": "Food",
-      "range": "country"
+      "range": "Genus"
+    },
+    {
+      "pid": "alternativeName",
+      "label": "alternativeName",
+      "domain": "Food",
+      "range": "string"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Country",
+      "range": "Demonym"
     },
     {
       "pid": "currency",
       "label": "currency",
-      "domain": "Food",
-      "range": "currency"
+      "domain": "Country",
+      "range": "Currency"
     },
     {
-      "pid": "division",
-      "label": "division",
+      "pid": "order",
+      "label": "order",
       "domain": "Food",
-      "range": "division"
+      "range": "number"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
     },
     {
       "pid": "ethnicGroup",
       "label": "ethnicGroup",
       "domain": "Food",
-      "range": "ethnicGroup"
+      "range": "EthnicGroup"
     },
     {
-      "pid": "family",
-      "label": "family",
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
       "domain": "Food",
-      "range": "family"
+      "range": "Food"
+    },
+    {
+      "pid": "region",
+      "label": "region",
+      "domain": "Food",
+      "range": "Place"
     },
     {
       "pid": "course",
       "label": "course",
       "domain": "Food",
-      "range": "course"
+      "range": "Food"
+    },
+    {
+      "pid": "dishVariation",
+      "label": "dishVariation",
+      "domain": "Food",
+      "range": "Food"
     },
     {
       "pid": "creator",
       "label": "creator",
       "domain": "Food",
-      "range": "creator"
+      "range": "Person"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Food",
+      "range": "Country"
+    },
+    {
+      "pid": "division",
+      "label": "division",
+      "domain": "Food",
+      "range": "Division"
+    },
+    {
+      "pid": "fat",
+      "label": "fat",
+      "domain": "Food",
+      "range": "number"
+    },
+    {
+      "pid": "family",
+      "label": "family",
+      "domain": "Food",
+      "range": "FoodFamily"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Country",
+      "range": "Language"
+    },
+    {
+      "pid": "servingTemperature",
+      "label": "servingTemperature",
+      "domain": "Food",
+      "range": "number"
+    },
+    {
+      "pid": "ingredient",
+      "label": "ingredient",
+      "domain": "Food",
+      "range": "Ingredient"
     }
   ]
 }

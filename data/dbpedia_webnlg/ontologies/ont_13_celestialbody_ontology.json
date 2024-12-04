@@ -7,276 +7,196 @@
       "label": "CelestialBody"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Person",
+      "label": "Person"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "State",
+      "label": "State"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "School",
+      "label": "School"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Periapsis",
+      "label": "Periapsis"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "Cause",
+      "label": "Cause"
     }
   ],
   "relations": [
     {
-      "pid": "temperature",
-      "label": "temperature",
-      "domain": "CelestialBody",
-      "range": "temperature"
-    },
-    {
-      "pid": "apoapsis",
-      "label": "apoapsis",
-      "domain": "CelestialBody",
-      "range": "apoapsis"
-    },
-    {
-      "pid": "maximumTemperature",
-      "label": "maximumTemperature",
-      "domain": "CelestialBody",
-      "range": "maximumTemperature"
-    },
-    {
-      "pid": "orbitalPeriod",
-      "label": "orbitalPeriod",
-      "domain": "CelestialBody",
-      "range": "orbitalPeriod"
-    },
-    {
-      "pid": "birthPlace",
-      "label": "birthPlace",
-      "domain": "CelestialBody",
-      "range": "birthPlace"
-    },
-    {
-      "pid": "absoluteMagnitude",
-      "label": "absoluteMagnitude",
-      "domain": "CelestialBody",
-      "range": "absoluteMagnitude"
-    },
-    {
-      "pid": "almaMater",
-      "label": "almaMater",
-      "domain": "CelestialBody",
-      "range": "almaMater"
-    },
-    {
-      "pid": "nationality",
-      "label": "nationality",
-      "domain": "CelestialBody",
-      "range": "nationality"
-    },
-    {
-      "pid": "discoverer",
-      "label": "discoverer",
-      "domain": "CelestialBody",
-      "range": "discoverer"
-    },
-    {
-      "pid": "minimumTemperature",
-      "label": "minimumTemperature",
-      "domain": "CelestialBody",
-      "range": "minimumTemperature"
-    },
-    {
-      "pid": "averageSpeed",
-      "label": "averageSpeed",
-      "domain": "CelestialBody",
-      "range": "averageSpeed"
-    },
-    {
-      "pid": "rotationPeriod",
-      "label": "rotationPeriod",
-      "domain": "CelestialBody",
-      "range": "rotationPeriod"
-    },
-    {
       "pid": "deathDate",
       "label": "deathDate",
       "domain": "CelestialBody",
-      "range": "deathDate"
-    },
-    {
-      "pid": "meanTemperature",
-      "label": "meanTemperature",
-      "domain": "CelestialBody",
-      "range": "meanTemperature"
-    },
-    {
-      "pid": "periapsis",
-      "label": "periapsis",
-      "domain": "CelestialBody",
-      "range": "periapsis"
-    },
-    {
-      "pid": "surfaceArea",
-      "label": "surfaceArea",
-      "domain": "CelestialBody",
-      "range": "surfaceArea"
-    },
-    {
-      "pid": "discovered",
-      "label": "discovered",
-      "domain": "CelestialBody",
-      "range": "discovered"
-    },
-    {
-      "pid": "epoch",
-      "label": "epoch",
-      "domain": "CelestialBody",
-      "range": "epoch"
-    },
-    {
-      "pid": "deathPlace",
-      "label": "deathPlace",
-      "domain": "CelestialBody",
-      "range": "deathPlace"
-    },
-    {
-      "pid": "mass",
-      "label": "mass",
-      "domain": "CelestialBody",
-      "range": "mass"
-    },
-    {
-      "pid": "density",
-      "label": "density",
-      "domain": "CelestialBody",
-      "range": "density"
+      "range": "Date"
     },
     {
       "pid": "escapeVelocity",
       "label": "escapeVelocity",
       "domain": "CelestialBody",
-      "range": "escapeVelocity"
+      "range": "number"
     },
     {
-      "pid": "formerName",
-      "label": "formerName",
+      "pid": "temperature",
+      "label": "temperature",
       "domain": "CelestialBody",
-      "range": "formerName"
+      "range": "number"
     },
     {
-      "pid": "birthDate",
-      "label": "birthDate",
+      "pid": "minimumTemperature",
+      "label": "minimumTemperature",
       "domain": "CelestialBody",
-      "range": "birthDate"
+      "range": "number"
+    },
+    {
+      "pid": "rotationPeriod",
+      "label": "rotationPeriod",
+      "domain": "CelestialBody",
+      "range": "number"
     },
     {
       "pid": "doctoralStudent",
       "label": "doctoralStudent",
-      "domain": "CelestialBody",
-      "range": "doctoralStudent"
+      "domain": "Person",
+      "range": "Person"
     },
     {
-      "pid": "deathCause",
-      "label": "deathCause",
+      "pid": "apoapsis",
+      "label": "apoapsis",
       "domain": "CelestialBody",
-      "range": "deathCause"
+      "range": "number"
+    },
+    {
+      "pid": "orbitalPeriod",
+      "label": "orbitalPeriod",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "CelestialBody",
+      "range": "Place"
+    },
+    {
+      "pid": "epoch",
+      "label": "epoch",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "mass",
+      "label": "mass",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Person",
+      "range": "Country"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "CelestialBody",
+      "range": "Place"
+    },
+    {
+      "pid": "maximumTemperature",
+      "label": "maximumTemperature",
+      "domain": "CelestialBody",
+      "range": "number"
     },
     {
       "pid": "stateOfOrigin",
       "label": "stateOfOrigin",
       "domain": "CelestialBody",
-      "range": "stateOfOrigin"
+      "range": "State"
+    },
+    {
+      "pid": "surfaceArea",
+      "label": "surfaceArea",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "discoverer",
+      "label": "discoverer",
+      "domain": "CelestialBody",
+      "range": "Person"
+    },
+    {
+      "pid": "density",
+      "label": "density",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "averageSpeed",
+      "label": "averageSpeed",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "periapsis",
+      "label": "periapsis",
+      "domain": "CelestialBody",
+      "range": "Periapsis"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Person",
+      "range": "School"
+    },
+    {
+      "pid": "deathCause",
+      "label": "deathCause",
+      "domain": "CelestialBody",
+      "range": "Cause"
+    },
+    {
+      "pid": "meanTemperature",
+      "label": "meanTemperature",
+      "domain": "CelestialBody",
+      "range": "number"
+    },
+    {
+      "pid": "formerName",
+      "label": "formerName",
+      "domain": "CelestialBody",
+      "range": "string"
+    },
+    {
+      "pid": "discovered",
+      "label": "discovered",
+      "domain": "CelestialBody",
+      "range": "Person"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Person",
+      "range": "Date"
+    },
+    {
+      "pid": "absoluteMagnitude",
+      "label": "absoluteMagnitude",
+      "domain": "CelestialBody",
+      "range": "number"
     }
   ]
 }

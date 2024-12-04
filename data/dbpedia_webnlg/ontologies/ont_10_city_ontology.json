@@ -7,236 +7,184 @@
       "label": "City"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "CityType",
+      "label": "CityType"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Country",
+      "label": "Country"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Demonym",
+      "label": "Demonym"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "County",
+      "label": "County"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Timezone",
+      "label": "Timezone"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Place",
+      "label": "Place"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "GovernmentType",
+      "label": "GovernmentType"
     },
     {
-      "qid": "",
-      "label": ""
+      "qid": "Language",
+      "label": "Language"
     },
     {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
-    },
-    {
-      "qid": "",
-      "label": ""
+      "qid": "State",
+      "label": "State"
     }
   ],
   "relations": [
     {
-      "pid": "isPartOf",
-      "label": "isPartOf",
+      "pid": "type",
+      "label": "type",
       "domain": "City",
-      "range": "isPartOf"
-    },
-    {
-      "pid": "leaderTitle",
-      "label": "leaderTitle",
-      "domain": "City",
-      "range": "leaderTitle"
-    },
-    {
-      "pid": "governmentType",
-      "label": "governmentType",
-      "domain": "City",
-      "range": "governmentType"
-    },
-    {
-      "pid": "leader",
-      "label": "leader",
-      "domain": "City",
-      "range": "leader"
-    },
-    {
-      "pid": "areaTotal",
-      "label": "areaTotal",
-      "domain": "City",
-      "range": "areaTotal"
-    },
-    {
-      "pid": "language",
-      "label": "language",
-      "domain": "City",
-      "range": "language"
-    },
-    {
-      "pid": "capital",
-      "label": "capital",
-      "domain": "City",
-      "range": "capital"
-    },
-    {
-      "pid": "populationDensity",
-      "label": "populationDensity",
-      "domain": "City",
-      "range": "populationDensity"
-    },
-    {
-      "pid": "utcOffset",
-      "label": "utcOffset",
-      "domain": "City",
-      "range": "utcOffset"
+      "range": "CityType"
     },
     {
       "pid": "areaCode",
       "label": "areaCode",
       "domain": "City",
-      "range": "areaCode"
+      "range": "string"
     },
     {
-      "pid": "state",
-      "label": "state",
-      "domain": "City",
-      "range": "state"
-    },
-    {
-      "pid": "areaOfLand",
-      "label": "areaOfLand",
-      "domain": "City",
-      "range": "areaOfLand"
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
     },
     {
       "pid": "populationMetro",
       "label": "populationMetro",
       "domain": "City",
-      "range": "populationMetro"
+      "range": "number"
     },
     {
       "pid": "demonym",
       "label": "demonym",
-      "domain": "City",
-      "range": "demonym"
-    },
-    {
-      "pid": "timeZone",
-      "label": "timeZone",
-      "domain": "City",
-      "range": "timeZone"
+      "domain": "Country",
+      "range": "Demonym"
     },
     {
       "pid": "countySeat",
       "label": "countySeat",
       "domain": "City",
-      "range": "countySeat"
+      "range": "County"
     },
     {
-      "pid": "country",
-      "label": "country",
+      "pid": "timeZone",
+      "label": "timeZone",
       "domain": "City",
-      "range": "country"
-    },
-    {
-      "pid": "largestCity",
-      "label": "largestCity",
-      "domain": "City",
-      "range": "largestCity"
-    },
-    {
-      "pid": "location",
-      "label": "location",
-      "domain": "City",
-      "range": "location"
-    },
-    {
-      "pid": "type",
-      "label": "type",
-      "domain": "City",
-      "range": "type"
+      "range": "Timezone"
     },
     {
       "pid": "postalCode",
       "label": "postalCode",
       "domain": "City",
-      "range": "postalCode"
+      "range": "string"
     },
     {
-      "pid": "elevationAboveTheSeaLevel",
-      "label": "elevationAboveTheSeaLevel",
+      "pid": "location",
+      "label": "location",
       "domain": "City",
-      "range": "elevationAboveTheSeaLevel"
+      "range": "Place"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
     },
     {
       "pid": "ethnicGroup",
       "label": "ethnicGroup",
       "domain": "City",
-      "range": "ethnicGroup"
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "City",
+      "range": "Person"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "City",
+      "range": "Country"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "City",
+      "range": "number"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "City",
+      "range": "number"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "City",
+      "range": "Country"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "governmentType",
+      "label": "governmentType",
+      "domain": "City",
+      "range": "GovernmentType"
+    },
+    {
+      "pid": "areaOfLand",
+      "label": "areaOfLand",
+      "domain": "City",
+      "range": "number"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "City",
+      "range": "Language"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "City",
+      "range": "State"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "City",
+      "range": "number"
+    },
+    {
+      "pid": "populationDensity",
+      "label": "populationDensity",
+      "domain": "City",
+      "range": "number"
     }
   ]
 }
