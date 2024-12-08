@@ -1,0 +1,20 @@
+{"id": "ont_9_nature_unseen_test_1", "response": "There are no triples to extract from the test sentence \"Mormyrus is a genus of fish in the family Verrucariaceae\" based on the given ontology concepts and relations.", "triples": []}
+{"id": "ont_9_nature_unseen_test_2", "response": "Henrica is a genus of fungi in the family Aerodramus.\n\nOutput:", "triples": []}
+{"id": "ont_9_nature_unseen_test_3", "response": "Mount Eisenhower (Q8502) mountain range (Q8502, Q46831) Queen Fabiola Mountains.", "triples": [["Q8502) mountain range (Q8502", "Mount Eisenhower", "Q46831) Queen Fabiola Mountains."]]}
+{"id": "ont_9_nature_unseen_test_4", "response": "```\nmountain range(Mount Eyskens, Presidential Range)\n```", "triples": [["Mount Eyskens", "mountain range", "Presidential Range"]]}
+{"id": "ont_9_nature_unseen_test_5", "response": "Test Sentence: Sca Fell is aline parent of Matterhorn.\nOutput: parent peak(Q8502,Q8502)", "triples": [["Q8502", "Output: parent peak", "Q8502"]]}
+{"id": "ont_9_nature_unseen_test_6", "response": "```\n(parent peak(Testa del Leone, Scafell Pike))\n```", "triples": [["parent peak(Testa del Leone", "", "Scafell Pike"]]}
+{"id": "ont_9_nature_unseen_test_7", "response": "```\ntributary(Niagara River, Brule River)\n```", "triples": [["Niagara River", "tributary", "Brule River"]]}
+{"id": "ont_9_nature_unseen_test_8", "response": "```\ntributary(Menominee River, Tonawanda Creek)\n```", "triples": [["Menominee River", "tributary", "Tonawanda Creek"]]}
+{"id": "ont_9_nature_unseen_test_9", "response": "```\norigin of the watercourse(Lugenda River, Lake Ritsa)\n```", "triples": [["Lugenda River", "origin of the watercourse", "Lake Ritsa"]]}
+{"id": "ont_9_nature_unseen_test_10", "response": "```\norigin of the watercourse(Kushiro, Lake Kivu)\n```", "triples": [["Kushiro", "origin of the watercourse", "Lake Kivu"]]}
+{"id": "ont_9_nature_unseen_test_11", "response": "```\n(mouth of the watercourse: Zaufensgraben, Inde)\n```", "triples": [["mouth of the watercourse: Zaufensgraben", "", "Inde"]]}
+{"id": "ont_9_nature_unseen_test_12", "response": "```\n(mouth of the watercourse(Vichtbach, Gessenbach))\n```", "triples": [["mouth of the watercourse(Vichtbach", "", "Gessenbach"]]}
+{"id": "ont_9_nature_unseen_test_13", "response": "```\n(taxon synonym, Bistorta vivipara, Ascalaphus libelluloides)\n```", "triples": [["taxon synonym", "", "Bistorta vivipara, Ascalaphus libelluloides"]]}
+{"id": "ont_9_nature_unseen_test_14", "response": "Libelloides coccajus does not directly match any of the ontology concepts or relations provided. Therefore, no triples can be extracted from the sentence according to the given ontology.", "triples": []}
+{"id": "ont_9_nature_unseen_test_15", "response": "```\nreservoir created(Tom Bevill Lock and Dam, Yale Lake)\n```", "triples": [["Tom Bevill Lock and Dam", "reservoir created", "Yale Lake"]]}
+{"id": "ont_9_nature_unseen_test_16", "response": "```\nreservoir created(Yale Dam, Aliceville Lake)\n```", "triples": [["Yale Dam", "reservoir created", "Aliceville Lake"]]}
+{"id": "ont_9_nature_unseen_test_17", "response": "```\nPagashi River drainage basin Iowa River basin\nPagashi River tributary Albany River\n```", "triples": []}
+{"id": "ont_9_nature_unseen_test_18", "response": "```\ntributary(Gardiner River, Mattagami River)\n```", "triples": [["Gardiner River", "tributary", "Mattagami River"]]}
+{"id": "ont_9_nature_unseen_test_19", "response": "The given sentence does not contain any information that matches the ontology relations provided. Therefore, there are no triples to extract from the sentence according to the specified ontology. \n\nOutput:", "triples": []}
+{"id": "ont_9_nature_unseen_test_20", "response": "There are no triples to extract from the test sentence based on the given ontology relations. The sentence does not contain any concepts or relations that match those specified in the ontology.", "triples": []}

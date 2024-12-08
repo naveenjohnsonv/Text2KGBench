@@ -1,0 +1,20 @@
+{"id": "ont_6_computer_unseen_test_1", "response": "developer(Internet Channel, The Software Link)", "triples": [["Internet Channel", "developer", "The Software Link"]]}
+{"id": "ont_6_computer_unseen_test_2", "response": "```\ndeveloper(PC-MOS/386, AOL)\n```", "triples": [["PC-MOS/386", "developer", "AOL"]]}
+{"id": "ont_6_computer_unseen_test_3", "response": "ENQUIRE is a software created by Floyd Brown.\n\nOutput:\n- (ENQUIRE, creator, Floyd Brown)", "triples": [["ENQUIRE", "-", "creator, Floyd Brown"]]}
+{"id": "ont_6_computer_unseen_test_4", "response": "```\ndeveloper(Meet the Press, Vitalik Buterin)\n```", "triples": [["Meet the Press", "developer", "Vitalik Buterin"]]}
+{"id": "ont_6_computer_unseen_test_5", "response": "```\n(platform(Caverns of Mars, Commodore 64))\n```", "triples": [["platform(Caverns of Mars", "", "Commodore 64"]]}
+{"id": "ont_6_computer_unseen_test_6", "response": "```\nplatform(Mighty Bomb Jack, Atari 8-bit family)\n```", "triples": [["Mighty Bomb Jack", "platform", "Atari 8-bit family"]]}
+{"id": "ont_6_computer_unseen_test_7", "response": "```\n(platform(Banana Pi, IRIX))\n```", "triples": [["platform(Banana Pi", "", "IRIX"]]}
+{"id": "ont_6_computer_unseen_test_8", "response": "```\n(platform(SGI Tezro, Linux))\n(operating system(Linux, SGI Tezro))\n```", "triples": [["platform(SGI Tezro", "", "Linux"], ["operating system(Linux", "", "SGI Tezro"]]}
+{"id": "ont_6_computer_unseen_test_9", "response": "Ghostscript is a suite of software based under the name of OpenIndiana.\n\nOutput:\n- (Ghostscript, platform, OpenIndiana)", "triples": [["Ghostscript", "-", "platform, OpenIndiana"]]}
+{"id": "ont_6_computer_unseen_test_10", "response": "```\ndeveloper(OpenSolaris, GNU Ghostscript)\n```", "triples": [["OpenSolaris", "developer", "GNU Ghostscript"]]}
+{"id": "ont_6_computer_unseen_test_11", "response": "There are no triples to extract from the test sentence \"Fast Draw Showdown is a live-action CD-ROM\" based on the given ontology concepts and relations.", "triples": []}
+{"id": "ont_6_computer_unseen_test_12", "response": "```\n(platform(Sanarara, Windows))\n```", "triples": [["platform(Sanarara", "", "Windows"]]}
+{"id": "ont_6_computer_unseen_test_13", "response": "The test sentence \"Web SQL Database using blockchain as a backend.\" does not contain any explicit relationships that match the ontology relations provided. Therefore, no triples can be extracted from this sentence based on the given ontology. \n\nOutput: (No triples extracted)", "triples": []}
+{"id": "ont_6_computer_unseen_test_14", "response": "```\n(platform(Filecoin, SQLite))\n```", "triples": [["platform(Filecoin", "", "SQLite"]]}
+{"id": "ont_6_computer_unseen_test_15", "response": "The given test sentence does not contain any information that directly matches the ontology relations provided. Therefore, no triples can be extracted from the sentence according to the specified ontology. \n\nOutput: (No triples to extract)", "triples": []}
+{"id": "ont_6_computer_unseen_test_16", "response": "No triples can be extracted from the test sentence based on the given ontology relations.", "triples": []}
+{"id": "ont_6_computer_unseen_test_17", "response": "```\ncreator(AWK, Ken Thompson)\nplatform(AWK, Unix shell)\n```", "triples": [["AWK", "creator", "Ken Thompson"], ["AWK", "platform", "Unix shell"]]}
+{"id": "ont_6_computer_unseen_test_18", "response": "The Thompson shell is created at Bell Labs and was written by Alfred Aho.\n\nOutput:\n- creator(Thompson shell, Alfred Aho)", "triples": [["Thompson shell", "- creator", "Alfred Aho"]]}
+{"id": "ont_6_computer_unseen_test_19", "response": "creator(Tamagotchi, Gilles Van Assche)", "triples": [["Tamagotchi", "creator", "Gilles Van Assche"]]}
+{"id": "ont_6_computer_unseen_test_20", "response": "```\ncreator(RadioGatún, Aki Maita)\n```", "triples": [["RadioGatún", "creator", "Aki Maita"]]}
