@@ -3,16 +3,20 @@ import re
 import sys
 from pathlib import Path
 
-def update_onto_list(json_data, ontologies_path):
-    full_path = Path(ontologies_path).resolve()
-    
+def update_onto_list(json_data):
     try:
-        # Get filenames and process them
+        # Extract path pattern for ontologies
+        onto_pattern = json_data["path_patterns"]["onto"]
+        
+        # Extract base directory from the pattern (up to the last '/')
+        base_dir = Path(onto_pattern.split("$$onto$$")[0]).resolve()
+        
+        # Extract filenames from the directory
         filenames = []
-        for f in full_path.glob('*.json'):
-            if f.is_file() and re.match(r'^ont_\d+_\w+_ontology\.json$', f.name):
+        for f in base_dir.glob('*.json'):
+            if f.is_file() and re.match(r'^\d+_\w+_ontology\.json$', f.name):
                 # Extract number and category name
-                match = re.search(r'ont_(\d+_\w+)_ontology', f.stem)
+                match = re.search(r'^(\d+_\w+)_ontology', f.stem)
                 if match:
                     filenames.append(match.group(1))
         
@@ -26,7 +30,10 @@ def update_onto_list(json_data, ontologies_path):
             return None
             
     except FileNotFoundError:
-        print(f"Directory not found: {full_path}")
+        print(f"Directory not found: {base_dir}")
+        return None
+    except KeyError as e:
+        print(f"Missing key in configuration: {str(e)}")
         return None
     except Exception as e:
         print(f"Error processing files: {str(e)}")
@@ -43,9 +50,8 @@ def main():
     try:
         with open(config_path, 'r') as f:
             data = json.load(f)
-            
-        ontologies_path = "../../data/dbpedia_webnlg/ontologies"
-        updated_data = update_onto_list(data, ontologies_path)
+        
+        updated_data = update_onto_list(data)
         
         if updated_data:
             with open(config_path, 'w') as f:

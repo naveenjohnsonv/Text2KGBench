@@ -1,6 +1,15 @@
 {
-  "onto_list" : [
-       "1_movie", "2_music", "3_sport", "4_book", "5_military", "6_computer", "7_space", "8_politics", "9_nature", "10_culture"
+  "onto_list": [
+    "10_culture",
+    "1_movie",
+    "2_music",
+    "3_sport",
+    "4_book",
+    "5_military",
+    "6_computer",
+    "7_space",
+    "8_politics",
+    "9_nature"
   ],
   "path_patterns": {
     "onto": "../../data/wikidata_tekgen/ontologies/$$onto$$_ontology.json",
