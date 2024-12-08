@@ -1,5 +1,4 @@
 {
-  "dataset": "dbpedia_webnlg",
   "onto_list": [
     "10_city",
     "11_meanoftransportation",
@@ -21,5 +20,11 @@
     "8_astronaut",
     "9_building"
   ],
-  "output_dir": "../../data/dbpedia_webnlg/baselines/prompts/"
+  "path_patterns": {
+    "onto": "../../data/dbpedia_webnlg/ontologies/$$onto$$_ontology.json",
+    "test": "../../data/dbpedia_webnlg/test/ont_$$onto$$_test.jsonl",
+    "train": "../../data/dbpedia_webnlg/train/ont_$$onto$$_train.jsonl",
+    "sent_sim": "../../data/dbpedia_webnlg/baselines/train_test_sentence_similarity/$$onto$$_test_train_similarity.json",
+    "prompt": "../../data/dbpedia_webnlg/baselines/prompts/ont_$$onto$$_prompts.jsonl"
+  }
 }

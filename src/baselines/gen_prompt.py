@@ -2,7 +2,6 @@ import argparse
 import json
 import os
 import sys
-import traceback
 from typing import List, Dict, Optional
 
 def load_file(src_file: str) -> Optional[dict]:
@@ -76,7 +75,7 @@ def get_example_prompt(train_sent: dict) -> str:
                     sub = triple.get('sub', '').replace("_", " ")
                     obj = triple.get('obj', '').replace("_", " ")
                     example_prompt += f"\n{rel}({sub}, {obj})"
-            
+        
         return example_prompt
     except Exception as e:
         print(f"Error processing train sentence: {str(e)}")
@@ -157,11 +156,14 @@ def prepare_prompt(ontology: dict, test_sentence: str, train_sent: dict) -> Opti
     except Exception:
         return None
 
-def write_prompts(prompts_json: List[dict], output_dir: str, onto: str) -> None:
+def write_prompts(prompts_json: List[dict], prompt_file: str) -> None:
     """Write prompts to JSONL file with proper formatting"""
     try:
-        output_file = os.path.join(output_dir, f'ont_{onto}_prompts.jsonl')
-        with open(output_file, 'w', encoding='utf-8') as f:
+        # Ensure the output directory exists
+        output_dir = os.path.dirname(prompt_file)
+        os.makedirs(output_dir, exist_ok=True)
+        
+        with open(prompt_file, 'w', encoding='utf-8') as f:
             for prompt_data in prompts_json:
                 # Ensure consistent formatting
                 formatted_prompt = {
@@ -170,24 +172,24 @@ def write_prompts(prompts_json: List[dict], output_dir: str, onto: str) -> None:
                 }
                 json_line = json.dumps(formatted_prompt, ensure_ascii=False)
                 f.write(json_line + '\n')
-        print(f"Successfully wrote prompts to {output_file}")
+        print(f"Successfully wrote prompts to {prompt_file}")
     except Exception as e:
         print(f"Error writing prompts: {str(e)}")
 
 def get_file_paths(config: dict) -> Dict[str, dict]:
-    """Generate file paths from config"""
+    """Generate file paths from config based on path_patterns"""
     try:
-        dataset = config['dataset']
         onto_list = config['onto_list']
-        base_path = f"../../data/{dataset}"
+        path_patterns = config['path_patterns']
         
         file_paths = {}
         for onto in onto_list:
             file_paths[onto] = {
-                'test_train_similarity_file': f"{base_path}/baselines/test_train_sent_similarity/{onto}_test_train_similarity.json",
-                'train_file': f"{base_path}/train/ont_{onto}_train.jsonl",
-                'test_file': f"{base_path}/test/ont_{onto}_test.jsonl",
-                'ontology_file': f"{base_path}/ontologies/ont_{onto}_ontology.json"
+                'test_train_similarity_file': path_patterns['sent_sim'].replace('$$onto$$', onto),
+                'train_file': path_patterns['train'].replace('$$onto$$', onto),
+                'test_file': path_patterns['test'].replace('$$onto$$', onto),
+                'ontology_file': path_patterns['onto'].replace('$$onto$$', onto),
+                'prompt_file': path_patterns['prompt'].replace('$$onto$$', onto)
             }
         return file_paths
     except Exception as e:
@@ -207,9 +209,6 @@ if __name__ == "__main__":
     if not file_paths:
         sys.exit(1)
 
-    output_dir = config.get('output_dir', f"../../data/{config['dataset']}/baselines/prompts/")
-    os.makedirs(output_dir, exist_ok=True)
-
     for onto in config['onto_list']:
         print(f"\nProcessing ontology: {onto}")
         paths = file_paths[onto]
@@ -223,7 +222,6 @@ if __name__ == "__main__":
             print(f"Skipping {onto} due to missing files")
             continue
 
-        prompts = []
         prompts_json = []
 
         try:
@@ -244,12 +242,11 @@ if __name__ == "__main__":
                     
                 prompt = prepare_prompt(ontology, test_text, train_sent)
                 if prompt:
-                    prompts.append(prompt)
                     prompt_data = {'id': test_id, 'prompt': prompt}
                     prompts_json.append(prompt_data)
             
-            write_prompts(prompts_json, output_dir, onto)
-            print(f"Generated {len(prompts)} prompts for {onto}")
+            write_prompts(prompts_json, paths['prompt_file'])
+            print(f"Generated {len(prompts_json)} prompts for {onto}")
             
         except Exception as e:
             print(f"Error processing ontology {onto}: {str(e)}")
