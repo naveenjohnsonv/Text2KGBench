@@ -8,7 +8,6 @@ from typing import List, Dict, Optional
 from llama_cpp import Llama
 from huggingface_hub import hf_hub_download
 
-
 def download_model() -> Optional[str]:
     """
     Downloads the model from Hugging Face Hub if not already present.
@@ -61,14 +60,14 @@ def initialize_model() -> Optional[Llama]:
             n_ctx=2048,             # Keep default context size
             n_threads=24,           # Match your CPU core count
             offload_kqv=True,       # Beneficial for large models
-            use_mlock=True
+            use_mlock=True,
+			verbose=False
         )
         print("Model initialized successfully.")
         return llm
     except Exception as e:
         print(f"Error initializing model: {str(e)}")
         return None
-
 
 def load_file(src_file: str) -> Optional[dict]:
     """Load either JSON or JSONL file."""
@@ -89,7 +88,6 @@ def load_file(src_file: str) -> Optional[dict]:
     except Exception as e:
         print(f"Error loading file {src_file}: {str(e)}")
         return None
-
 
 def parse_triples(response_text: str) -> List[List[str]]:
     """Parse the response text to extract triples."""
@@ -112,7 +110,6 @@ def parse_triples(response_text: str) -> List[List[str]]:
             except Exception as e:
                 print(f"Error parsing line: {line}, Error: {str(e)}")
     return triples
-
 
 def get_file_paths(config: dict) -> Dict[str, dict]:
     """Generate file paths from config."""
@@ -144,10 +141,9 @@ def get_file_paths(config: dict) -> Dict[str, dict]:
         print(f"Error generating file paths: {str(e)}")
         return {}
 
-
 def generate_response(llm: Llama, prompt: str) -> Optional[str]:
     """
-    Generates a response from the model given a prompt.
+    Generates a response from the model given a prompt using chat completion.
     
     Args:
         llm: The initialized model.
@@ -158,23 +154,20 @@ def generate_response(llm: Llama, prompt: str) -> Optional[str]:
     """
     try:
         start_time = time.time()
-        response = llm(
-            prompt,
-            max_tokens=250,
-            temperature=0.7,
-            stop=["\n"]
+        response = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0
         )
         end_time = time.time()
         
-        # Llama-Cpp returns the generated text directly
-        response_text = response.strip()
+        # Extract content from chat completion response
+        response_text = response['choices'][0]['message']['content']
         
         print(f"Response generated in {end_time - start_time:.2f} seconds.")
         return response_text
     except Exception as e:
         print(f"Error generating response: {str(e)}")
         return None
-
 
 def main():
     parser = argparse.ArgumentParser(description="Process prompts using model and store responses.")
@@ -248,7 +241,6 @@ def main():
         except Exception as e:
             print(f"Error writing responses: {str(e)}")
             continue
-
 
 if __name__ == "__main__":
     main()
