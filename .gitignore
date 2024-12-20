@@ -1,2 +1,4 @@
 virtualenv/
 venv/
+src/benchmark/sparql_cache/
+src/benchmark/.ipynb_checkpoints/

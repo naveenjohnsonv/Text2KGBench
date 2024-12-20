@@ -24,6 +24,18 @@ def load_file(src_file: str) -> Optional[dict]:
         print(f"Error loading file {src_file}: {str(e)}")
         return None
 
+def get_concept_label(ontology: dict, concept_qid: str) -> str:
+    """
+    Retrieve the label for a given concept QID from the ontology.
+    :param ontology: The ontology dictionary containing concepts.
+    :param concept_qid: The QID of the concept.
+    :return: The label of the concept or an empty string if not found.
+    """
+    for concept in ontology.get('concepts', []):
+        if concept.get('qid') == concept_qid:
+            return concept.get('label', '')
+    return ''
+
 def get_ontology_concepts(ontology: dict) -> str:
     """Extract concepts from ontology"""
     try:
@@ -39,19 +51,33 @@ def get_ontology_concepts(ontology: dict) -> str:
         return ""
 
 def get_ontology_relations(ontology: dict) -> str:
-    """Extract relations from ontology"""
+    """
+    Extract and format ontology relations.
+    :param ontology: The ontology dictionary containing relations and concepts.
+    :return: A comma-separated string of formatted relations.
+    """
     try:
-        if isinstance(ontology, dict) and 'relations' in ontology:
-            relations = []
-            for relation in ontology['relations']:
-                if isinstance(relation, dict):
-                    label = relation.get('label', '')
-                    domain = relation.get('domain', '')
-                    range_val = relation.get('range', '')
-                    if label and domain and range_val:
-                        relations.append(f"{label}({domain},{range_val})")
-            return ", ".join(relations)
-        return ""
+        if not isinstance(ontology, dict) or 'relations' not in ontology:
+            return ""
+        
+        relations = []
+        for relation in ontology['relations']:
+            label = relation.get('label', '').replace(" ", "_")  # Replace spaces with underscores
+
+            domain_qid = relation.get('domain', '')
+            range_qid = relation.get('range', '')
+            
+            # Retrieve labels using QIDs
+            domain = get_concept_label(ontology, domain_qid)
+            range_ = get_concept_label(ontology, range_qid)
+            
+            # Skip if any part is missing
+            if not label or not domain or not range_:
+                continue
+            
+            relations.append(f"{label}({domain},{range_})")
+        
+        return ", ".join(relations)
     except Exception as e:
         print(f"Error getting ontology relations: {str(e)}")
         return ""
