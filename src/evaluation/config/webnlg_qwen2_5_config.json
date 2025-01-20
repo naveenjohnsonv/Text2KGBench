@@ -24,7 +24,7 @@
     "sys": "../../data/dbpedia_webnlg/baselines/Qwen2_5-32B-Instruct-Q4KM/llm_responses/ont_$$onto$$_responses.jsonl",
     "gt": "../../data/dbpedia_webnlg/ground_truth/ont_$$onto$$_ground_truth.jsonl",
     "onto": "../../data/dbpedia_webnlg/ontologies/$$onto$$_ontology.json",
-    "output": "../../data/dbpedia_webnlg/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/ont_$$onto$$_eval_results.jsonl"
+    "output": "../../data/dbpedia_webnlg/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/ont_$$onto$$_eval_metrics.jsonl"
   },
-  "avg_out_file": "../../data/dbpedia_webnlg/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/avg_eval_results.jsonl"
+  "avg_out_file": "../../data/dbpedia_webnlg/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/avg_eval_metrics.jsonl"
 }

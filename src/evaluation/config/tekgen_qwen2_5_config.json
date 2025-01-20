@@ -17,5 +17,5 @@
     "onto": "../../data/wikidata_tekgen/ontologies/$$onto$$_ontology.json",
     "output": "../../data/wikidata_tekgen/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/$$onto$$_eval_metrics.jsonl"
   },
-  "avg_out_file": "../../data/wikidata_tekgen/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/ont_llm_avg_eval_metrics.jsonl"
+  "avg_out_file": "../../data/wikidata_tekgen/baselines/Qwen2_5-32B-Instruct-Q4KM/eval_metrics/avg_eval_metrics.jsonl"
 }
