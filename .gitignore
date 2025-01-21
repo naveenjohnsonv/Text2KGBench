@@ -2,3 +2,5 @@ virtualenv/
 venv/
 src/benchmark/sparql_cache/
 src/benchmark/.ipynb_checkpoints/
+odeuropa_subset_british-library_1890-1899/.ipynb_checkpoints
+odeuropa_subset_british-library_1890-1899/rdf/.ipynb_checkpoints
