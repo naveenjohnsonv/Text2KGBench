@@ -13,10 +13,11 @@ def update_onto_list(json_data):
         
         # Extract filenames from the directory
         filenames = []
+        pattern = r'^(l?\d+_\w+)_ontology\.json$'
         for f in base_dir.glob('*.json'):
-            if f.is_file() and re.match(r'^\d+_\w+_ontology\.json$', f.name):
-                # Extract number and category name
-                match = re.search(r'^(\d+_\w+)_ontology', f.stem)
+            if f.is_file() and re.match(pattern, f.name):
+                # Extract number (with optional 'l' prefix) and category name
+                match = re.search(r'^(l?\d+_\w+)_ontology', f.stem)
                 if match:
                     filenames.append(match.group(1))
         
