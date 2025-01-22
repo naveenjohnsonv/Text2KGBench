@@ -42,10 +42,10 @@ def update_onto_list(json_data):
 
 def main():
     config_path = next((arg.split('=')[1] for arg in sys.argv 
-                       if arg.startswith('--prompt_gen_config_path=')), None)
+                       if arg.startswith('--eval_config_path=')), None)
     
     if not config_path:
-        print("Error: Please provide --prompt_gen_config_path argument")
+        print("Error: Please provide --eval_config_path argument")
         return
         
     try:
