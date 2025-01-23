@@ -1,0 +1,30 @@
+{"id": "ont_l12_smell_emission_unseen_1", "sent": "The coffee roastery emitted dark chocolate notes through its ventilation shafts.", "triples": [{"sub": "coffee roastery", "rel": "generated", "obj": "chocolate notes"}]}
+{"id": "ont_l12_smell_emission_unseen_2", "sent": "Mold spores from the flooded basement permeated upstairs bedrooms.", "triples": [{"sub": "mold spores", "rel": "had source", "obj": "flooded basement"}]}
+{"id": "ont_l12_smell_emission_unseen_3", "sent": "Campfire smoke became embedded in hikers' woolen sweaters during the trek.", "triples": [{"sub": "campfire smoke", "rel": "had carrier", "obj": "woolen sweaters"}]}
+{"id": "ont_l12_smell_emission_unseen_4", "sent": "Rotting seaweed deposits created sulfurous odors along Pebble Beach.", "triples": [{"sub": "seaweed deposits", "rel": "took place at", "obj": "Pebble Beach"}]}
+{"id": "ont_l12_smell_emission_unseen_5", "sent": "Morning frost amplified the earthy petrichor from plowed fields.", "triples": [{"sub": "petrichor", "rel": "hasTime", "obj": "morning"}]}
+{"id": "ont_l12_smell_emission_unseen_6", "sent": "Industrial smokestacks released metallic-tinted fumes over the valley.", "triples": [{"sub": "smokestacks", "rel": "generated", "obj": "metallic fumes"}]}
+{"id": "ont_l12_smell_emission_unseen_7", "sent": "The fish market's briney essence originated from daily ice melt runoff.", "triples": [{"sub": "fish market", "rel": "had source", "obj": "ice melt"}]}
+{"id": "ont_l12_smell_emission_unseen_8", "sent": "Sandalwood incense permeated the silk curtains of the meditation room.", "triples": [{"sub": "incense", "rel": "had carrier", "obj": "silk curtains"}]}
+{"id": "ont_l12_smell_emission_unseen_9", "sent": "Bleach odors concentrated near the hospital's laundry facility.", "triples": [{"sub": "bleach odors", "rel": "took place at", "obj": "laundry facility"}]}
+{"id": "ont_l12_smell_emission_unseen_10", "sent": "Night blooming jasmine released its perfume after sunset.", "triples": [{"sub": "jasmine", "rel": "hasTime", "obj": "night"}]}
+{"id": "ont_l12_smell_emission_unseen_11", "sent": "Burnt toast particles circulated through the apartment's HVAC system.", "triples": [{"sub": "toast particles", "rel": "generated", "obj": "burnt odor"}]}
+{"id": "ont_l12_smell_emission_unseen_12", "sent": "The chemical plant's acrid emissions stemmed from unregulated waste pits.", "triples": [{"sub": "chemical plant", "rel": "had source", "obj": "waste pits"}]}
+{"id": "ont_l12_smell_emission_unseen_13", "sent": "Freshly printed newspapers left ink traces on readers' fingertips.", "triples": [{"sub": "newspapers", "rel": "had carrier", "obj": "fingertips"}]}
+{"id": "ont_l12_smell_emission_unseen_14", "sent": "Decaying leaves produced musty aromas in the forest hollow.", "triples": [{"sub": "leaves", "rel": "took place at", "obj": "forest hollow"}]}
+{"id": "ont_l12_smell_emission_unseen_15", "sent": "Summer heat intensified the asphalt's tar-like exhalations.", "triples": [{"sub": "asphalt", "rel": "hasTime", "obj": "summer"}]}
+{"id": "ont_l12_smell_emission_unseen_16", "sent": "The chocolatier's convection fans spread cocoa essence through the mall.", "triples": [{"sub": "chocolatier", "rel": "generated", "obj": "cocoa essence"}]}
+{"id": "ont_l12_smell_emission_unseen_17", "sent": "Sewer gases emerged from cracked pipes beneath the city streets.", "triples": [{"sub": "sewer gases", "rel": "had source", "obj": "cracked pipes"}]}
+{"id": "ont_l12_smell_emission_unseen_18", "sent": "Pipe tobacco residue lingered in the velvet upholstery of old armchairs.", "triples": [{"sub": "tobacco residue", "rel": "had carrier", "obj": "velvet upholstery"}]}
+{"id": "ont_l12_smell_emission_unseen_19", "sent": "Low tide exposed briny-smelling mudflats along the estuary.", "triples": [{"sub": "mudflats", "rel": "took place at", "obj": "estuary"}]}
+{"id": "ont_l12_smell_emission_unseen_20", "sent": "Autumn rains activated geosmin compounds in the garden soil.", "triples": [{"sub": "geosmin compounds", "rel": "hasTime", "obj": "autumn"}]}
+{"id": "ont_l12_smell_emission_unseen_21", "sent": "The candle workshop diffused honey-vanilla fragrances down Main Street.", "triples": [{"sub": "candle workshop", "rel": "generated", "obj": "honey-vanilla fragrances"}]}
+{"id": "ont_l12_smell_emission_unseen_22", "sent": "Rancid cooking oil smells originated from the diner's clogged vents.", "triples": [{"sub": "cooking oil smells", "rel": "had source", "obj": "clogged vents"}]}
+{"id": "ont_l12_smell_emission_unseen_23", "sent": "Wood polish aromas adhered to the library's leather-bound volumes.", "triples": [{"sub": "wood polish", "rel": "had carrier", "obj": "leather-bound volumes"}]}
+{"id": "ont_l12_smell_emission_unseen_24", "sent": "Fish processing plants created ammonia-like stenches at harbor's edge.", "triples": [{"sub": "processing plants", "rel": "took place at", "obj": "harbor's edge"}]}
+{"id": "ont_l12_smell_emission_unseen_25", "sent": "Spring thaw released methane pockets from frozen marshlands.", "triples": [{"sub": "methane pockets", "rel": "hasTime", "obj": "spring"}]}
+{"id": "ont_l12_smell_emission_unseen_26", "sent": "Burnt rubber odors from racing tires hung over the speedway.", "triples": [{"sub": "racing tires", "rel": "generated", "obj": "burnt rubber odors"}]}
+{"id": "ont_l12_smell_emission_unseen_27", "sent": "The compost heap's earthy musk arose from vegetable matter breakdown.", "triples": [{"sub": "compost heap", "rel": "had source", "obj": "vegetable matter"}]}
+{"id": "ont_l12_smell_emission_unseen_28", "sent": "Salt air corrosion left metallic traces on seaside railings.", "triples": [{"sub": "salt air", "rel": "had carrier", "obj": "seaside railings"}]}
+{"id": "ont_l12_smell_emission_unseen_29", "sent": "Industrial solvents left chemical afternotes near the factory gates.", "triples": [{"sub": "industrial solvents", "rel": "took place at", "obj": "factory gates"}]}
+{"id": "ont_l12_smell_emission_unseen_30", "sent": "Midday sun activated creosote bush oils in desert washes.", "triples": [{"sub": "creosote bush oils", "rel": "hasTime", "obj": "midday"}]}

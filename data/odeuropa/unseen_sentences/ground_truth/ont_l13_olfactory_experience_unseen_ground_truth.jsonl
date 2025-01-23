@@ -1,0 +1,30 @@
+{"id": "ont_l13_olfactory_experience_unseen_1", "sent": "Hikers detected faint sulfur traces near the volcanic vents.", "triples": [{"sub": "sulfur traces", "rel": "perceived", "obj": "hikers"}]}
+{"id": "ont_l13_olfactory_experience_unseen_2", "sent": "Fresh basil triggered memories of Italian summers for the chef.", "triples": [{"sub": "fresh basil", "rel": "evoked", "obj": "memories"}]}
+{"id": "ont_l13_olfactory_experience_unseen_3", "sent": "Burnt popcorn smells lingered in the cinema's upper balcony.", "triples": [{"sub": "popcorn smells", "rel": "took place at", "obj": "cinema"}]}
+{"id": "ont_l13_olfactory_experience_unseen_4", "sent": "Perfumers distinguished bergamot undertones in the new fragrance.", "triples": [{"sub": "perfumers", "rel": "carried out by", "obj": "distinguished"}]}
+{"id": "ont_l13_olfactory_experience_unseen_5", "sent": "Dusk air carried magnolia blooms' sweetness through southern gardens.", "triples": [{"sub": "dusk air", "rel": "hasTime", "obj": "dusk"}]}
+{"id": "ont_l13_olfactory_experience_unseen_6", "sent": "Neighbors complained about paint thinner vapors from the renovation.", "triples": [{"sub": "neighbors", "rel": "perceived", "obj": "paint thinner vapors"}]}
+{"id": "ont_l13_olfactory_experience_unseen_7", "sent": "Cinnamon sticks evoked holiday memories for elderly residents.", "triples": [{"sub": "cinnamon sticks", "rel": "evoked", "obj": "holiday memories"}]}
+{"id": "ont_l13_olfactory_experience_unseen_8", "sent": "Disinfectant odors dominated the school corridors during flu season.", "triples": [{"sub": "disinfectant odors", "rel": "took place at", "obj": "school corridors"}]}
+{"id": "ont_l13_olfactory_experience_unseen_9", "sent": "Wine experts identified oak barrel tannins in the cabernet.", "triples": [{"sub": "wine experts", "rel": "carried out by", "obj": "identified"}]}
+{"id": "ont_l13_olfactory_experience_unseen_10", "sent": "Morning fog carried kelp bed odors to coastal residents.", "triples": [{"sub": "morning fog", "rel": "hasTime", "obj": "morning"}]}
+{"id": "ont_l13_olfactory_experience_unseen_11", "sent": "Children wrinkled noses at the locker room's athlete foot odor.", "triples": [{"sub": "children", "rel": "perceived", "obj": "locker room odor"}]}
+{"id": "ont_l13_olfactory_experience_unseen_12", "sent": "Pine resin scent reminded veterans of boot camp forests.", "triples": [{"sub": "pine resin", "rel": "evoked", "obj": "memories"}]}
+{"id": "ont_l13_olfactory_experience_unseen_13", "sent": "Baking bread aromas filtered through the apartment complex.", "triples": [{"sub": "baking bread", "rel": "took place at", "obj": "apartment complex"}]}
+{"id": "ont_l13_olfactory_experience_unseen_14", "sent": "Fire inspectors recognized accelerant traces at the arson site.", "triples": [{"sub": "fire inspectors", "rel": "carried out by", "obj": "recognized"}]}
+{"id": "ont_l13_olfactory_experience_unseen_15", "sent": "Evening humidity intensified jasmine blooms' fragrance.", "triples": [{"sub": "evening humidity", "rel": "hasTime", "obj": "evening"}]}
+{"id": "ont_l13_olfactory_experience_unseen_16", "sent": "Tourists noticed briney sea air upon approaching the cliffs.", "triples": [{"sub": "tourists", "rel": "perceived", "obj": "sea air"}]}
+{"id": "ont_l13_olfactory_experience_unseen_17", "sent": "Old books' mustiness transported librarians to archive vaults.", "triples": [{"sub": "old books", "rel": "evoked", "obj": "transportation"}]}
+{"id": "ont_l13_olfactory_experience_unseen_18", "sent": "Petroleum smells concentrated near the truck stop's fuel pumps.", "triples": [{"sub": "petroleum smells", "rel": "took place at", "obj": "truck stop"}]}
+{"id": "ont_l13_olfactory_experience_unseen_19", "sent": "Sommeliers detected blackcurrant notes in the Bordeaux blend.", "triples": [{"sub": "sommeliers", "rel": "carried out by", "obj": "detected"}]}
+{"id": "ont_l13_olfactory_experience_unseen_20", "sent": "Nightshift workers reported stronger chemical odors after midnight.", "triples": [{"sub": "chemical odors", "rel": "hasTime", "obj": "midnight"}]}
+{"id": "ont_l13_olfactory_experience_unseen_21", "sent": "Asthmatics reacted to ozone traces before thunderstorms.", "triples": [{"sub": "asthmatics", "rel": "perceived", "obj": "ozone traces"}]}
+{"id": "ont_l13_olfactory_experience_unseen_22", "sent": "Suntan lotion aromas evoked beach vacations for office workers.", "triples": [{"sub": "suntan lotion", "rel": "evoked", "obj": "beach vacations"}]}
+{"id": "ont_l13_olfactory_experience_unseen_23", "sent": "Ammonia smells permeated the cleaning supply storage room.", "triples": [{"sub": "ammonia smells", "rel": "took place at", "obj": "storage room"}]}
+{"id": "ont_l13_olfactory_experience_unseen_24", "sent": "Tea masters identified floral notes in the oolong variety.", "triples": [{"sub": "tea masters", "rel": "carried out by", "obj": "identified"}]}
+{"id": "ont_l13_olfactory_experience_unseen_25", "sent": "Dawn mist carried sagebrush aromas across desert canyons.", "triples": [{"sub": "dawn mist", "rel": "hasTime", "obj": "dawn"}]}
+{"id": "ont_l13_olfactory_experience_unseen_26", "sent": "Homeowners detected mold spores during basement inspections.", "triples": [{"sub": "homeowners", "rel": "perceived", "obj": "mold spores"}]}
+{"id": "ont_l13_olfactory_experience_unseen_27", "sent": "Freshly cut pine triggered childhood Christmas memories.", "triples": [{"sub": "freshly cut pine", "rel": "evoked", "obj": "Christmas memories"}]}
+{"id": "ont_l13_olfactory_experience_unseen_28", "sent": "Hospital staff noticed antiseptic odors in surgical wings.", "triples": [{"sub": "antiseptic odors", "rel": "took place at", "obj": "surgical wings"}]}
+{"id": "ont_l13_olfactory_experience_unseen_29", "sent": "Coffee cuppers distinguished citrus notes in Ethiopian beans.", "triples": [{"sub": "coffee cuppers", "rel": "carried out by", "obj": "distinguished"}]}
+{"id": "ont_l13_olfactory_experience_unseen_30", "sent": "Midday heat amplified garbage truck odors in urban alleys.", "triples": [{"sub": "midday heat", "rel": "hasTime", "obj": "midday"}]}

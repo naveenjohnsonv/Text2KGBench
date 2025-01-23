@@ -1,0 +1,13 @@
+{
+  "onto_list": [
+    "l12_smell_emission",
+    "l13_olfactory_experience"
+  ],
+  "path_patterns": {
+    "onto": "../../data/odeuropa/ontologies/$$onto$$_ontology.json",
+    "test": "../../data/odeuropa/unseen_sentences/test/ont_$$onto$$_unseen_test.jsonl",
+    "train": "../../data/odeuropa/train/ont_$$onto$$_train.jsonl",
+    "sent_sim": "../../data/odeuropa/baselines/test_train_sent_similarity/unseen/$$onto$$_unseen_test_train_similarity.json",
+    "prompt": "../../data/odeuropa/baselines/prompts/unseen/ont_$$onto$$_unseen_prompts.jsonl"
+  }
+}
