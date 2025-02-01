@@ -1,0 +1,14 @@
+ipykernel
+numpy
+openai
+nltk
+torch
+sentence_transformers
+tqdm
+SPARQLWrapper
+pandas
+llama-cpp-python
+huggingface-hub
+requests
+cmake
+ninja
